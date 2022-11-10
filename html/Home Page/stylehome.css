@@ -9,10 +9,10 @@ overflow-x: none;
 overflow-y: none;
 }
 
-#box{
+.box{
   position: relative;
-  height: 500%;
-  width: 350%;
+  height: 600px;
+  width: 350px;
   border: 5px solid blue;
   align-items: center;
   left: 200px;
@@ -24,7 +24,7 @@ overflow-y: none;
 
 header {
     font: 'Abril Fatface';
-    background-color: #4A4545;
+    background-color: red;
     position: fixed;
     top: 0;
     left: 0;
@@ -55,9 +55,9 @@ header li a {
   right: -500px;
   bottom: -500px;
   left: -500px;
-  background: url(https://www.dropbox.com/s/h7ab1c82ctzy83n/noise.png?raw=1) 0 0;
+  background: url(https://github.com/dystotypo/dystotypo/blob/main/img/noise.png?raw=true) 0 0;
   background-size: 320px 320px;
-  opacity: 0.1;
+  opacity: 0.8;
   -webkit-animation: noise 1s steps(8, end) infinite both;
           animation: noise 1s steps(8, end) infinite both;
 }
