@@ -15,10 +15,10 @@ body {
   overflow-y: hidden;
 }
 
-container {
+/*.container {
 position: relative;
 align-items: center;
-}
+}*/
 
 h1{
 margin: 150px;
@@ -28,7 +28,7 @@ color: #FFFFFF;
 text-align: center;
 }
 
-/*span.enterbutton{
+span.enterbutton{
 font-family:'Abril Fatface';
 position: relative;
 color: black;
@@ -42,11 +42,10 @@ bottom: 150px;
 
 .enterbutton:hover {
   color: white;
-}*/
+}
 
-button {
-  direction: none;
-  font-family: 'Abril Fatface', cursive !important;
+.enterbutton {
+  font-family: 'Abril Fatface';
   color: white;
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -55,11 +54,6 @@ button {
   overflow: hidden;
   font-size: 1.5em;
   padding: 1em;
-}
-
-button:hover{
- background-color: red;
- 
 }
 
 .noise {

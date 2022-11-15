@@ -25,6 +25,7 @@ overflow-y: hidden;
 nav{
   font: 'Abril Fatface';
   font-weight: bold;
+  padding: 0;
 }
 
 header {
@@ -38,10 +39,15 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-decoration: none;
 }
 
 header * {
     display: inline;
+    text-decoration: none;
 }
 
 header li {
@@ -49,9 +55,24 @@ header li {
     color: white;
 }
 
-header li a {
-    color: white;
+header li a:hover{
+    color: black;
     text-decoration: none;
+}
+
+header a:link, a:visited{
+  text-decoration: none;
+}
+
+header h1{
+  font: 'Abril Fatface';
+  color: white;
+  margin-left: 18px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-default);
+  font-family: var(--font-primary);
+  text-decoration: none;
 }
 
 .noise {
