@@ -28,7 +28,7 @@ color: #FFFFFF;
 text-align: center;
 }
 
-span.enterbutton{
+/*span.enterbutton{
 font-family:'Abril Fatface';
 position: relative;
 color: black;
@@ -42,6 +42,24 @@ bottom: 150px;
 
 .enterbutton:hover {
   color: white;
+}*/
+
+button {
+  direction: none;
+  font-family: 'Abril Fatface', cursive !important;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 0.125em white solid;
+  cursor:pointer;
+  overflow: hidden;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+button:hover{
+ background-color: red;
+ 
 }
 
 .noise {
