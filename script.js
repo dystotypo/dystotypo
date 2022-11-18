@@ -1,9 +1,3 @@
-$(window).on('load', addNoise);
-
-function addNoise() {
-  $('.noise').css('opacity',1);
-}
-
 $(document).ready(function () {
   var mySwiper = new Swiper(".swiper", {
     autoHeight: true,
