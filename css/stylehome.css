@@ -4,80 +4,59 @@
   box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Abril Fatface';
-    src: url('AbrilFatface-Regular.ttf');
+html,
+body {
+  background-color: #2c2c2c;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-body{
-background-color: #2c2c2c;
-overflow-x: hidden;
-overflow-y: hidden;
-}
-
-.box{
-  position: relative;
-  height: 600px;
-  width: 350px;
-  border: 5px solid blue;
-  align-items: center;
-  left: 200px;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  top: 200px;
-}
-
-nav{
-  font: 'Abril Fatface';
-  font-weight: bold;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  margin: 0;
   padding: 0;
 }
 
+.container {
+  background-color: var(--theme-bg-color);
+  max-width: 1300px;
+  max-height: 860px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 header {
-    font: 'Abril Fatface';
-    background-color: red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    text-decoration: none;
+  font: "Abril Fatface";
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
 }
 
 header * {
-    display: inline;
-    text-decoration: none;
+  display: inline;
 }
 
 header li {
-    margin: 20px;
-    color: white;
-}
-
-header li a:hover{
-    color: black;
-    text-decoration: none;
-}
-
-header a:link, a:visited{
-  text-decoration: none;
-}
-
-header h1{
-  font: 'Abril Fatface';
+  margin: 20px;
   color: white;
-  margin-left: 18px;
-  font-size: 30px;
-  font-weight: 700;
-  color: var(--color-default);
-  font-family: var(--font-primary);
+}
+
+header li a {
+  color: white;
   text-decoration: none;
 }
 
@@ -91,8 +70,9 @@ header h1{
   background-size: 320px 320px;
   opacity: 0.8;
   -webkit-animation: noise 1s steps(8, end) infinite both;
-          animation: noise 1s steps(8, end) infinite both;
+  animation: noise 1s steps(8, end) infinite both;
 }
+
 @-webkit-keyframes noise {
   0% {
     transform: translateX(0px, 0px);
@@ -162,8 +142,6 @@ header h1{
   100% {
     transform: translate(-100px, 100px);
   }
-}
-
 }
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
