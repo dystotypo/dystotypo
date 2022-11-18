@@ -30,12 +30,12 @@ text-align: center;
 
 span.enterbutton{
 font-family:'Abril Fatface';
-position: relative;
+position: relative flex;
 color: black;
 font-size: 125%;
 text-decoration: none;
 text-align: center;
-margin: 600px;
+/*margin: 600px;*/
 cursor: pointer;
 bottom: 150px;
 }
@@ -44,7 +44,7 @@ bottom: 150px;
   color: white;
 }
 
-.enterbutton {
+/*.enterbutton {
   font-family: 'Abril Fatface';
   color: white;
   background-color: Transparent;
@@ -54,7 +54,7 @@ bottom: 150px;
   overflow: hidden;
   font-size: 1.5em;
   padding: 1em;
-}
+}*/
 
 .noise {
   position: absolute;
