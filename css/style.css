@@ -23,10 +23,11 @@ body {
 .hiddenphrase:hover{
   visibility: hidden;
 }
-/*.container {
+
+.container {
 position: relative;
 align-items: center;
-}*/
+}
 
 h1{
 margin: 150px;
@@ -36,16 +37,16 @@ color: #FFFFFF;
 text-align: center;
 }
 
-span.enterbutton{
+.enterbutton{
 font-family:'Abril Fatface';
-position: relative flex;
 color: black;
-font-size: 125%;
+font-size: 125px;
 text-decoration: none;
 text-align: center;
-/*margin: 600px;*/
+margin: 600px;
 cursor: pointer;
 bottom: 150px;
+overflow: hidden;
 }
 
 .enterbutton:hover {
