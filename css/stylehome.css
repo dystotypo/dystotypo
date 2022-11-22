@@ -18,6 +18,22 @@ body {
   padding: 0;
 }
 
+.issuecontainer{
+  display: block;
+  top: 180%;
+  left: 30%;
+  width: 800px;
+  height: 500px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 12 px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
 .container {
   background-color: var(--theme-bg-color);
   max-width: 1300px;
