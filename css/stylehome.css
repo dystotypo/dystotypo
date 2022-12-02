@@ -63,18 +63,25 @@ header {
   box-shadow: 0 0 25px 0 black;
 }
 
-header * {
-  display: inline;
+nav{
+  z-index: 1;
+  position: relative;
 }
 
-header li {
+/*header * {
+  display: inline;
+}*/
+
+/*header li {
   margin: 20px;
   color: white;
-}
+}*/
 
 header li a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
+  display: inline;
 }
 
 .navbar-brand{
