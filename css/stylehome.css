@@ -77,6 +77,18 @@ header li a {
   text-decoration: none;
 }
 
+.navbar-brand{
+  padding-left:30px;
+}
+
+a:hover{
+  color:black;
+}
+
+a:visited{
+  color:white;
+}
+
 .noise {
   position: absolute;
   top: -500px;
