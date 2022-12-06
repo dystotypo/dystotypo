@@ -10,14 +10,16 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
 }
 
-body {
+/*body {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   margin: 0;
   padding: 0;
-}
+}*/
 
 .issuecontainer{
   display: block;
@@ -63,7 +65,8 @@ header {
   box-shadow: 0 0 25px 0 black;
 }
 
-nav{
+.navbar{
+  display:grid;
   z-index: 1;
   position: relative;
 }
@@ -180,13 +183,28 @@ a:visited{
   }
 }
 .swiper-container-wrapper--timeline .swiper-slide {
-  display: flex;
+  display: inline-block;
   background: #fff;
   min-height: 400px;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: fit-content;
+  object-fit: contain;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
 }
+
+#theme_1_book_1{
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 5px;
+}
+
 .swiper-container-wrapper--timeline .swiper-slide .container {
   padding: 0;
   width: 100%;
@@ -344,4 +362,48 @@ a:visited{
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch.active ~ .swiper-pagination-switch .switch-title:after {
   background: #888;
+}
+
+.container_issues_page{
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: fixed;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.book1 article{ 
+    position: absolute;
+    padding: 20px;
+    color: white;
+    background-color: #241A32;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section.book1 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  box-shadow: inset 3px 3px 9px rgba(0, 0, 0, 0.466);
+
+  height: 100vh;
+}
+
+section#img01 {
+  background-image: url(C:\Users\Camila\Documents\GitHub\dystotypo\img\1984_wallpaper_parallax.jfif);
 }
