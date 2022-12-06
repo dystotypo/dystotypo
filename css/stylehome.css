@@ -67,7 +67,7 @@ header {
 
 .navbar{
   display:grid;
-  z-index: 1;
+  z-index: 9999;
   position: relative;
 }
 
@@ -365,20 +365,22 @@ a:visited{
 }
 
 .container_issues_page{
-  position: absolute;
-  height: 400px;
-  width: 600px;
+  position: fixed;
+  max-height: 100%;
+  max-width: 100%;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   position: fixed;
-  border-radius: 14px;
+  border: 14px;
+  border-color: #fff;
   font-size: 15px;
   font-weight: 500;
 }
 
 .book1 article{ 
     position: absolute;
+    padding-top: 60px;
     padding: 20px;
     color: white;
     background-color: #241A32;
@@ -404,6 +406,6 @@ section.book1 {
   height: 100vh;
 }
 
-section#img01 {
-  background-image: url(C:\Users\Camila\Documents\GitHub\dystotypo\img\1984_wallpaper_parallax.jfif);
+.container_issues_page#img01 {
+  content: url(\img\1984_wallpaper_parallax_1.jpg);
 }
