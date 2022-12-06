@@ -365,10 +365,12 @@ a:visited{
 }
 
 .container_issues_page{
-  position: fixed;
-  max-height: 100%;
-  max-width: 100%;
+  position: absolute;
+  max-height: 60%;
+  max-width: 60%;
   overflow-y: scroll;
+  top: 30%;
+  left: 20%;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -406,6 +408,24 @@ section.book1 {
   height: 100vh;
 }
 
-.container_issues_page#img01 {
-  content: url(\img\1984_wallpaper_parallax_1.jpg);
+section#img01 {
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/bcf78118faaafb6a24b1091158d96705168cdbdb/img/1984_wallpaper_parallax_1.jpg);
+  background-size: contain;
 }
+
+section#img02 {
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/F451_wallpaper_parallax.jpg);
+}
+
+section#img03 {
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/BNW_wallpaper_parallax.jpg);
+}
+
+section.normal {
+  background-color: #241A32;
+  color: white;
+  
+  min-height: 300px;
+  min-width: 350px;
+}
+
