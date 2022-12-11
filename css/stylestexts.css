@@ -38,7 +38,6 @@ header li a {
 }
 
 .container{
-  background-color: var(--theme-bg-color);
   max-width: none;
   max-height: none;
   height: 100%;

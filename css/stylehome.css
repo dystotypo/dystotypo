@@ -21,36 +21,8 @@ body {
   padding: 0;
 }*/
 
-.issuecontainer{
-  display: block;
-  width: 600px;
-  height: 400px;
-  padding-top: 100em;
-  padding-left: 100rem;
-  border-style: solid;
-  border-color: white;
-  border-radius: 12 px;
-  background-color: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
 
-.container {
-  background-color: var(--theme-bg-color);
-  max-width: 1300px;
-  max-height: 860px;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  border-radius: 14px;
-  font-size: 15px;
-  font-weight: 500;
-}
+/* navbar */
 
 header {
   font: "Abril Fatface";
@@ -98,6 +70,9 @@ a:hover{
 a:visited{
   color:white;
 }
+
+
+/* noise animation background */
 
 .noise {
   position: absolute;
@@ -182,6 +157,14 @@ a:visited{
     transform: translate(-100px, 100px);
   }
 }
+
+
+/* for the timeline */
+
+
+
+/* for the home page */
+
 .swiper-container-wrapper--timeline .swiper-slide {
   display: inline-block;
   background: #fff;
@@ -364,6 +347,9 @@ a:visited{
   background: #888;
 }
 
+
+/* for the issues page */
+
 .container_issues_page{
   position: fixed;
   max-height: 60%;
@@ -478,4 +464,63 @@ section > p {
 
 article:visited{
   text-decoration: none;
+}
+
+
+/* for the texts page */
+
+#text{
+  position: relative;
+	background-color: white;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 60px;
+  height: 400px;
+  margin-top: 30%;
+  width: 800px;
+  overflow:auto;
+}
+
+#menu{
+  position: relative;
+	background-color: purple;
+  opacity: 0.7;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 88%;
+  margin-bottom: 20%;
+  margin-left: 30%;
+  border-radius: 10px;
+  padding: 60px;
+  height: 400px;
+  width: 100px;
+}
+
+#eye-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#flame-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#pill-icon {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+#metadata-menu{
+  position:relative;
+	background-color: orange;
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-top: 88%;
+  margin-bottom: 20%;
+  margin-left: 30%;
+  border-radius: 10px;
+  padding: 60px;
+  height: 400px;
+  width: 100px;
 }
