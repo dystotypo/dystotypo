@@ -21,6 +21,25 @@ body {
   padding: 0;
 }*/
 
+/* about modal */
+
+.modal-title{
+  color: red;
+
+}
+
+.modal-body{
+  background-color: red
+}
+
+.modal-header{
+  background-color: black;
+
+}
+
+.modal-footer{
+  background-color: black;
+}
 
 /* navbar */
 
@@ -365,7 +384,7 @@ a:visited{
   font-weight: 500;
 }
 
-article{ 
+article{
     position: absolute;
     text-align: center;
     padding-top: 60px;
@@ -410,7 +429,7 @@ section#img03 {
 section.normal {
   background-color: #241A32;
   color: white;
-  
+
   min-height: 300px;
   min-width: 350px;
 }
@@ -459,7 +478,7 @@ section > p {
   min-width: 350px;
   font-size: 16px;
   line-height: 28px;
-  
+
 }
 
 article:visited{
@@ -486,11 +505,18 @@ article:visited{
   border-radius: 10px;
 
   margin-right: 900px;
-  padding: 10px; 
+  padding: 10px;
 
   height: 400px;
   width: 150px;
+}
 
+@media only screen and (max-width: 768px) {
+   #menu {
+     width: auto;
+     height: auto;
+     font-size: 16px;
+   }
 }
 
 #eye-icon {
@@ -520,7 +546,15 @@ article:visited{
   height: 400px;
   width: 800px;
   overflow:auto;
-  
+
+}
+
+@media only screen and (max-width: 768px) {
+   #text {
+     width: auto;
+     height: auto;
+     font-size: 16px;
+   }
 }
 
 #metadata{
@@ -530,6 +564,14 @@ article:visited{
   margin-left: 100px;
   width: 800px;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+   #metadata {
+     width: auto;
+     height: auto;
+     font-size: 16px;
+   }
 }
 
 .collapsible {
@@ -542,6 +584,14 @@ article:visited{
   text-align: left;
   outline: none;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+   .collapsible {
+      width: auto;
+      height: auto;
+      font-size: 16px;
+   }
 }
 
 .active, .collapsible:hover {
