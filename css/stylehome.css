@@ -12,6 +12,8 @@ body {
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  height: 100%;
+  min-height: 100%;
 }
 
 /*body {
@@ -93,12 +95,35 @@ a:visited{
 
 /* noise animation background */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .noise {
   position: absolute;
   top: -500px;
   right: -500px;
   bottom: -500px;
   left: -500px;
+  margin: -50px;
   background: url(https://github.com/dystotypo/dystotypo/blob/main/img/noise.png?raw=true) 0 0;
   background-size: 320px 320px;
   opacity: 0.8;
@@ -487,36 +512,46 @@ article:visited{
 
 /* for the texts page */
 
-.flex-container{
-  position: fixed;
+.container {
+  position: relative;
+  height: 140%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.flex-container {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  top: 60%;
-  left: 20%;
+  flex-wrap: nowrap; /* added */
+  max-width: 100%;
 }
 
-#menu{
+#menu {
   position: absolute;
-	background-color: purple;
-  opacity: 0.7;
+  background-color: purple;
+  opacity: 0.8;
   align-items: center;
   border-radius: 10px;
-
-  margin-right: 900px;
-  padding: 10px;
-
-  height: 400px;
+  margin-right: 100%;
+  padding: 3%;
+  min-height: 400px;
   width: 150px;
+  min-width: 50px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 @media only screen and (max-width: 768px) {
-   #menu {
-     width: auto;
-     height: auto;
-     font-size: 16px;
-   }
+  #menu {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
 }
 
 #eye-icon {
@@ -534,44 +569,46 @@ article:visited{
   max-height: 30px;
 }
 
-#text{
+#text {
   z-index: 1;
   position: absolute;
-	background-color: white;
+  background-color: white;
   border-radius: 10px;
-
-  margin-left: 100px;
-  padding: 50px;
-
-  height: 400px;
+  margin-left: 30%;
+  padding: 2%;
+  max-height: 400px;
   width: 800px;
-  overflow:auto;
-
+  min-width: 100px;
+  overflow: auto;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 @media only screen and (max-width: 768px) {
-   #text {
-     width: auto;
-     height: auto;
-     font-size: 16px;
-   }
+  #text {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
 }
 
-#metadata{
+#metadata {
   z-index: 2;
   position: relative;
   top: -250px;
-  margin-left: 100px;
+  margin-left: 2%;
   width: 800px;
   border-radius: 10px;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
 @media only screen and (max-width: 768px) {
-   #metadata {
-     width: auto;
-     height: auto;
-     font-size: 16px;
-   }
+  #metadata {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
 }
 
 .collapsible {
@@ -587,13 +624,13 @@ article:visited{
 }
 
 @media only screen and (max-width: 767px) {
-   .collapsible {
-      width: auto;
-      height: auto;
-      font-size: 16px;
-   }
+  .collapsible {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+  }
 }
 
-.active, .collapsible:hover {
+.active, .:hover {
   background-color: #555;
 }
