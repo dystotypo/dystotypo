@@ -623,6 +623,18 @@ article:visited{
   font-size: 15px;
 }
 
+.collapsible.active {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: pink;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 @media only screen and (max-width: 767px) {
   .collapsible {
     width: auto;
