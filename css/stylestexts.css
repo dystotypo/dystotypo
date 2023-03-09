@@ -37,6 +37,10 @@ header li a {
     text-decoration: none;
 }
 
+p{
+  background-color: none;
+}
+
 .container{
   max-width: none;
   max-height: none;
