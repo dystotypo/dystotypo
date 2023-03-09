@@ -10,7 +10,7 @@
 }
 
 html,
-body,p {
+body {
   font-family: "AbrilFatface", serif;
   background-color: #2c2c2c;
   place-items: center;
@@ -86,6 +86,7 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0 0 25px 0 black;
+  z-index: 9999;
 }
 
 .navbar{
@@ -94,14 +95,9 @@ header {
   position: relative;
 }
 
-/*header * {
-  display: inline;
-}*/
-
-/*header li {
-  margin: 20px;
-  color: white;
-}*/
+.normal-text,p{
+  background-color: none;
+}
 
 header li a {
   color: white;
@@ -667,6 +663,6 @@ article:visited{
   }
 }
 
-.active, .:hover {
+/*.active, .:hover {
   background-color: #555;
-}
+}*/
