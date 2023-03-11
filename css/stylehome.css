@@ -553,7 +553,7 @@ article:visited{
 
 #menu {
   position: absolute;
-  background-color: purple;
+  background-color: #B22222;
   opacity: 0.8;
   align-items: center;
   border-radius: 10px;
@@ -615,7 +615,7 @@ article:visited{
 #metadata {
   z-index: 2;
   position: relative;
-  top: -250px;
+  top: -300px;
   margin-left: 2%;
   width: 800px;
   border-radius: 10px;
