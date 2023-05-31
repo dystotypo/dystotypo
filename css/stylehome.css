@@ -110,12 +110,57 @@ header li a {
   padding-left:30px;
 }
 
+.nav-link{
+  font-size: large;
+  position: relative;
+  left: 23cm;
+}
+
+.timeline {
+  border: solid white 2px;
+  position: relative;
+  top: 15%;
+  height: 45px;
+  padding: 8px;
+  z-index: 9999;
+  display: grid;
+}
+
+.timeline li{
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.timeline li:hover{
+  color: white;
+  background-color: #B22222;
+}
+
+.nav-options{
+  color: white;
+  display: inline;
+  padding-right: 10px;
+  text-align: center;
+}
+
 a:hover{
   color:black;
 }
 
 a:visited{
   color:white;
+}
+.intro-text{
+  position: absolute;
+  top: 25%;
+  right: 28%;
+  height: 70%;
+  width: 50%;
+  border: solid white 2px;
+  overflow-x: scroll;
+  text-align: center;
 }
 
 
@@ -221,9 +266,6 @@ a:visited{
     transform: translate(-100px, 100px);
   }
 }
-
-
-/* for the timeline */
 
 
 
