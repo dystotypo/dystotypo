@@ -155,14 +155,16 @@ a:visited{
 .intro-text{
   position: absolute;
   top: 25%;
-  right: 28%;
+  right: 10%;
   height: 70%;
-  width: 50%;
-  border: solid white 2px;
-  overflow-x: scroll;
+  width: 80%;
   text-align: center;
 }
 
+.intro-text h1{
+  font-size: 80px;
+
+}
 
 /* noise animation background */
 
