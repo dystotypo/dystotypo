@@ -116,6 +116,7 @@ header li a {
   font-size: large;
   position: relative;
   left: 23cm;
+  text-decoration: none;
 }
 
 .timeline {
@@ -141,6 +142,7 @@ header li a {
 .timeline li:hover{
   color: white;
   background-color: #B22222;
+  transition-duration: 0.5s;
 }
 
 .nav-options{
@@ -157,6 +159,11 @@ a:hover{
 a:visited{
   color:white;
 }
+
+li:visited{
+  color:white;
+}
+
 .intro-text{
   position: fixed;
   top: 25%;
@@ -288,7 +295,7 @@ a:visited{
   position: absolute;
   width: 100%;
   top: 70%;
-  left: 90px;
+  left: 0.1rem;
   display: flex;
   flex-direction: column;
   border: 14px;
@@ -526,3 +533,60 @@ article:visited{
 /*.active, .:hover {
   background-color: #555;
 }*/
+
+.dropbtn {
+  color: white;
+  border: none;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-size: large;
+  position: relative;
+  left: 23cm;
+}
+
+.dropdown-content{
+  display: none;
+  position: relative;
+  /*min-width: 220px;*/
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  margin-top: 10rem;   
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  font-size: medium;
+  color: white;
+  padding-left: 4%;
+  display: block;
+}
+
+.dropdown li{
+  /*font-family: 'Dosis';*/
+  font-size: 25px;
+  color: #eaffd6 !important;  
+  position: relative;
+  display: block;
+  z-index: 10000;
+}
+
+.dropdown-content a {
+  font-size: medium;
+  color: white;
+  padding-left: 4%;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
+
+.dropdown:hover .dropbtn {background-color: #b3949c;}
