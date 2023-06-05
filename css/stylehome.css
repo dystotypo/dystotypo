@@ -87,13 +87,13 @@ header {
   height: 65px;
   display: flex;
   align-items: center;
-  box-shadow: 0 0 25px 0 black;
-  z-index: 1;
+  /*box-shadow: 0 0 25px 0 black;*/
+  z-index: 2;
 }
 
 .navbar{
   display:grid;
-  z-index: 1;
+  z-index: 2;
   position: fixed;
 }
 
@@ -103,6 +103,7 @@ header {
 
 header li a {
   color: white;
+  text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   display: inline;
@@ -115,7 +116,7 @@ header li a {
 .nav-link{
   font-size: large;
   position: relative;
-  left: 23cm;
+  left: 26cm;
   text-decoration: none;
 }
 
@@ -149,6 +150,7 @@ header li a {
   display: inline;
   padding-right: 10px;
   text-align: center;
+  z-index: 2;
 }
 
 a:hover{
@@ -170,6 +172,7 @@ li:visited{
   height: 70%;
   width: 80%;
   text-align: center;
+  font-size: 18px;
 }
 
 .intro-text h1{
@@ -347,6 +350,7 @@ section.normal {
   color: white;
   min-height: 300px;
   min-width: 350px;
+  padding: 18px;
 }
 
 /*This section should be shorted somehow, cause it doesn't seem a good idea to repeat codes for doing the same thing*/
@@ -399,11 +403,13 @@ article:visited{
 
 .container {
   position: relative;
-  height: 140%;
+  height: 100%;
+  margin-top: 130px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
+  z-index: 0;
 }
 
 .flex-container {
@@ -422,7 +428,8 @@ article:visited{
   opacity: 0.8;
   align-items: center;
   border-radius: 10px;
-  margin-right: 100%;
+  margin-right: 120%;
+  margin-top: 0;
   padding: 3%;
   min-height: 400px;
   width: 150px;
@@ -459,10 +466,10 @@ article:visited{
   position: absolute;
   background-color: white;
   border-radius: 10px;
-  margin-left: 30%;
+  margin-left: 20%;
   padding: 2%;
   max-height: 400px;
-  width: 800px;
+  width: 900px;
   min-width: 100px;
   overflow: auto;
   flex-shrink: 1;
@@ -540,6 +547,7 @@ article:visited{
 .dropbtn {
   color: white;
   border: none;
+  text-transform: uppercase;
   background-color: transparent;
   border-width: 0;
   font-family: inherit;
@@ -548,7 +556,7 @@ article:visited{
   line-height: inherit;
   font-size: large;
   position: relative;
-  left: 23cm;
+  left: 26cm;
 }
 
 .dropdown li{
@@ -557,27 +565,21 @@ article:visited{
   color: #eaffd6 !important;  
   position: relative;
   display: block;
-  z-index: 210;
 }
 
 .dropdown-content{
   display: none;
-  position: relative;
+  position: absolute;
+  margin-left: 26cm;
+  padding: 10px;
   backdrop-filter: blur(5px);
-  z-index: 211;
-  margin-top: 10rem;
+  min-width: 220px;
+  z-index: 5;
 }
 
 .dropdown-content a {
-  font-size: medium;
-  color: white;
-  padding-left: 4%;
-  display: block;
-}
-
-
-.dropdown-content a {
-  font-size: medium;
+  font-size: 20px;
+  text-decoration: none;
   color: white;
   padding-left: 4%;
   display: block;
@@ -585,5 +587,5 @@ article:visited{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {z-index: 2;background-color: #B22222; transition-duration: 0.5s;}
+.dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
 
