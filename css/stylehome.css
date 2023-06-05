@@ -88,12 +88,12 @@ header {
   display: flex;
   align-items: center;
   box-shadow: 0 0 25px 0 black;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .navbar{
   display:grid;
-  z-index: 9999;
+  z-index: 1;
   position: fixed;
 }
 
@@ -126,9 +126,8 @@ header li a {
   height: 45px;
   width: 100%;
   padding: 8px;
-  z-index: 9999;
+  z-index: 1;
   display: grid;
-  z-index: 9999;
   backdrop-filter: blur(5px);
 }
 
@@ -331,8 +330,8 @@ section.book1 {
 }
 
 section#img01 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/bcf78118faaafb6a24b1091158d96705168cdbdb/img/1984_wallpaper_parallax_1.jpg);
-  background-size: contain;
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/eyes-on-him.jpg);
+  background-size:cover;
 }
 
 section#img02 {
@@ -346,7 +345,6 @@ section#img03 {
 section.normal {
   background-color: #B22222;
   color: white;
-
   min-height: 300px;
   min-width: 350px;
 }
@@ -534,6 +532,11 @@ article:visited{
   background-color: #555;
 }*/
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
 .dropbtn {
   color: white;
   border: none;
@@ -548,18 +551,21 @@ article:visited{
   left: 23cm;
 }
 
+.dropdown li{
+  /*font-family: 'Dosis';*/
+  font-size: 25px;
+  color: #eaffd6 !important;  
+  position: relative;
+  display: block;
+  z-index: 210;
+}
+
 .dropdown-content{
   display: none;
   position: relative;
-  /*min-width: 220px;*/
   backdrop-filter: blur(5px);
-  z-index: 12;
-  margin-top: 10rem;   
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+  z-index: 211;
+  margin-top: 10rem;
 }
 
 .dropdown-content a {
@@ -569,14 +575,6 @@ article:visited{
   display: block;
 }
 
-.dropdown li{
-  /*font-family: 'Dosis';*/
-  font-size: 25px;
-  color: #eaffd6 !important;  
-  position: relative;
-  display: block;
-  z-index: 10000;
-}
 
 .dropdown-content a {
   font-size: medium;
@@ -587,6 +585,5 @@ article:visited{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
+.dropdown-content a:hover {z-index: 2;background-color: #B22222; transition-duration: 0.5s;}
 
-.dropdown:hover .dropbtn {background-color: #b3949c;}
