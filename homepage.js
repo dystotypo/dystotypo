@@ -41,3 +41,9 @@ $(document).ready(function () {
     $(this).addClass("active");
   });
 });
+
+function changeTheme(newTheme) {
+  const elem = document.getElementById('theme');
+  elem.href = newTheme;
+  sessionStorage.setItem('href', newTheme);
+}
