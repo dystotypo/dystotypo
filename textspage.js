@@ -12,3 +12,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+$(document).ready(function () {
+  $('#icon1').click(function () {
+        $('#text').load('1984.html');
+  });
+  });

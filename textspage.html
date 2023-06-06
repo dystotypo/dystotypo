@@ -95,46 +95,11 @@
         </div>
       </div>
       <div class="normal-text" id="text">
-        <p>For some reason the telescreen in the living-room was in an unusual position. Instead of being placed, as was
-          normal, in the end wall, where it could command the whole room, it was in thelonger wall, opposite the window.
-          To one side of it there was a shallow alcove in which Winston was now sitting, and which, when the flats were
-          built, had probably been intended to hold bookshelves.By sitting in the alcove, and keeping well back, Winston
-          was able to remain outside the range of the telescreen, so far as sight went. He could be heard, of course,
-          but so long as he stayed in his present position he could not be seen. It was partly the unusual geography of
-          the room that had suggested to him the thing that he was now about to do. But it had also been suggested by
-          the book that he had just taken out of the drawer. It was a peculiarly beautiful book.</p>
-        <p>Fr some reason the telescreen in the living-room was in an unusual position. Instead of being placed, as was
-          normal, in the end wall, where it could command the whole room, it was in thelonger wall, opposite the window.
-          To one side of it there was a shallow alcove in which Winston was now sitting, and which, when the flats were
-          built, had probably been intended to hold bookshelves.By sitting in the alcove, and keeping well back, Winston
-          was able to remain outside the range of the telescreen, so far as sight went. He could be heard, of course,
-          but so long as he stayed in his present position he could not be seen. It was partly the unusual geography of
-          the room that had suggested to him the thing that he was now about to do.</p>
-        <p>For some reason the telescreen in the living-room was in an unusual position. Instead of being placed, as was
-          normal, in the end wall, where it could command the whole room, it was in thelonger wall, opposite the window.
-          To one side of it there was a shallow alcove in which Winston was now sitting, and which, when the flats were
-          built, had probably been intended to hold bookshelves.By sitting in the alcove, and keeping well back, Winston
-          was able to remain outside the range of the telescreen, so far as sight went. He could be heard, of course,
-          but so long as he stayed in his present position he could not be seen. It was partly the unusual geography of
-          the room that had suggested to him the thing that he was now about to do.</p>
-        <p>For some reason the telescreen in the living-room was in an unusual position. Instead of being placed, as was
-          normal, in the end wall, where it could command the whole room, it was in thelonger wall, opposite the window.
-          To one side of it there was a shallow alcove in which Winston was now sitting, and which, when the flats were
-          built, had probably been intended to hold bookshelves.By sitting in the alcove, and keeping well back, Winston
-          was able to remain outside the range of the telescreen, so far as sight went. He could be heard, of course,
-          but so long as he stayed in his present position he could not be seen. It was partly the unusual geography of
-          the room that had suggested to him the thing that he was now about to do.</p>
-        <p>For some reason the telescreen in the living-room was in an unusual position. Instead of being placed, as was
-          normal, in the end wall, where it could command the whole room, it was in thelonger wall, opposite the window.
-          To one side of it there was a shallow alcove in which Winston was now sitting, and which, when the flats were
-          built, had probably been intended to hold bookshelves.By sitting in the alcove, and keeping well back, Winston
-          was able to remain outside the range of the telescreen, so far as sight went. He could be heard, of course,
-          but so long as he stayed in his present position he could not be seen. It was partly the unusual geography of
-          the room that had suggested to him the thing that he was now about to do.</p>
+        Select the text
       </div>
       <div class="normal-text" id="menu">
         <p><h4>Select a text:</h4></p>
-        <span><a id="txt1" href="#"><img src="img/icons/eye.png" id="eye-icon" /></a></span>
+        <span><a id="icon1" href="#"><img src="img/icons/eye.png" id="eye-icon"/></a></span>
         <span><a id="txt2" href="#"><img src="img/icons/flame.png" id="flame-icon" /></a></span>
         <span><a id="txt3" href="#"><img src="img/icons/pill.png" id="pill-icon" /></a></span>
         <br>
@@ -149,6 +114,27 @@
       </div>
     </div>
   </div>
+
+  <script>
+   
+   //$(document).ready(function(){
+   //$("#icon1").click(function(){
+     //$.ajax({
+       //url: '1984.html',
+       //success: function(data) {
+       //  $("#text").html(data);
+       //}
+     //});
+   //});
+  //});
+
+  $(document).ready(function () {
+  $('#icon1').click(function () {
+        $('#text').load('1984.html');
+  });
+  });
+
+  </script>
 
 </body>
 
