@@ -161,10 +161,12 @@ a:hover{
 
 a:visited{
   color:white;
+  text-decoration: none !important;
 }
 
 li:visited{
   color:white;
+  text-decoration: none;
 }
 
 /*texts*/
