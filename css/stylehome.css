@@ -36,7 +36,7 @@ body {
   text-align: center;
   overflow-x: hidden;
   overflow-y: hidden;
-} 
+}
 
 .enterbutton{
   display: grid;
@@ -425,10 +425,10 @@ article:visited{
 
 #menu {
   position: absolute;
-  background-color: #B22222;
-  opacity: 0.8;
+  border: solid red 2px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   align-items: center;
-  border-radius: 10px;
   margin-right: 120%;
   margin-top: 0;
   padding: 3%;
@@ -465,8 +465,9 @@ article:visited{
 #text {
   z-index: 1;
   position: absolute;
-  background-color: white;
-  border-radius: 10px;
+  border: solid yellow 2px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   margin-left: 20%;
   padding: 2%;
   max-height: 400px;
@@ -491,7 +492,9 @@ article:visited{
   top: -300px;
   margin-left: 2%;
   width: 800px;
-  border-radius: 10px;
+  border: solid blue 2px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   flex-shrink: 1;
   flex-grow: 1;
 }
@@ -563,7 +566,7 @@ article:visited{
 .dropdown li{
   /*font-family: 'Dosis';*/
   font-size: 25px;
-  color: #eaffd6 !important;  
+  color: #eaffd6 !important;
   position: relative;
   display: block;
 }
@@ -589,4 +592,3 @@ article:visited{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
-
