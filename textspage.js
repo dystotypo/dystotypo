@@ -30,3 +30,28 @@ $(document).ready(function () {
         $('#text').load('bravenewworld.html');
   });
   });
+
+  $(document).ready(main);
+
+//highlights
+
+  function main() {
+    $('#showtruth').click(function() {
+      if (this.checked)
+        $('.truth').addClass('text-truth')
+      else
+        $('.truth').removeClass('text-truth')
+    })
+    $('#showmemory').click(function() {
+      if (this.checked)
+        $('.memory').addClass('text-memory')
+      else
+        $('.memory').removeClass('text-memory')
+    })
+    $('#showtime').change(function() {
+      if (this.checked)
+        $('.time').addClass('text-time')
+      else
+        $('.time').removeClass('text-time')
+    })
+  }

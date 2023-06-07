@@ -557,6 +557,38 @@ article:visited{
   }
 }
 
+/*highlight functionalities*/
+
+#truth, #memory, #time{
+  background-color: #bab1a0;
+}
+#truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
+  background-color: #5b181f;
+  border-color: #bab1a0;
+}
+input[type="checkbox"]{
+  color:#bab1a0;
+}
+.btn-default{
+  color:#bab1a0;
+}
+.btn-default:hover{
+  color:#bab1a0;
+}
+
+
+.text-truth {
+  background-color: #ffddff;
+}
+
+.text-memory {
+  background-color: #ddffdd;
+}
+
+.text-time {
+  background-color: #ffffdd;
+}
+
 /*.active, .:hover {
   background-color: #555;
 }*/
