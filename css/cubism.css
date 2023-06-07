@@ -12,7 +12,8 @@
 html,
 body {
   font-family: "AbrilFatface", serif;
-  background-image: url('/img/cubism.jpg');
+  background: url(https://github.com/dystotypo/dystotypo/blob/main/img/cubism.jpg);
+  background-size: cover;
   place-items: center;
   overflow-x: hidden;
   font-size: 16px;
@@ -79,7 +80,7 @@ body {
 
 header {
   font: "Abril Fatface";
-  background-color: #B22222;
+  background-color: #6082B6;
   position: fixed;
   top: 0;
   left: 0;

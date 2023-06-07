@@ -54,7 +54,7 @@ $(document).ready(function(){
       case 'css/cubism.css':
         document.getElementById('theme').setAttribute('href', 'css/cubism.css');
         break;
-
+  }})
 
 function changeTheme(newTheme) {
   const elem = document.getElementById('theme');
