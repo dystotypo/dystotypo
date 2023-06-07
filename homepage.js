@@ -60,6 +60,7 @@ function2 = () => {
   linkforCSSfile.rel = 'stylesheet'
   headTag.appendChild(linkforCSSfile);
   document.body.appendChild(headTag);
+  sessionStorage.setItem('href', linkforCSSfile.href);
 };
 
 function oncomingissue(){
