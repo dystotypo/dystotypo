@@ -52,6 +52,10 @@ body {
   overflow: hidden;
 }
 
+.overflow-hidden {
+  overflow-y: hidden;
+}
+
 /* about modal */
 
 .modal-title{
@@ -578,15 +582,15 @@ input[type="checkbox"]{
 
 
 .text-truth {
-  background-color: #ffddff;
+  background-color: red;
 }
 
 .text-memory {
-  background-color: #ddffdd;
+  background-color: purple;
 }
 
 .text-time {
-  background-color: #ffffdd;
+  background-color: blue;
 }
 
 /*.active, .:hover {
