@@ -30,6 +30,7 @@ color: #FFFFFF;
 text-align: center;
 overflow-x: hidden;
 overflow-y: hidden;
+z-index: 2;
 }
 
 .enterbutton{

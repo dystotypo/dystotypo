@@ -42,6 +42,20 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function(){
+
+
+  var start_style = sessionStorage.getItem('href');
+  switch (start_style) {
+    case 'css/stylehome.css':
+      document.getElementById('theme').setAttribute('href', 'stylehome.css');
+      break;
+
+      case 'css/cubism.css':
+        document.getElementById('theme').setAttribute('href', 'css/cubism.css');
+        break;
+
+
 function changeTheme(newTheme) {
   const elem = document.getElementById('theme');
   elem.href = newTheme;
