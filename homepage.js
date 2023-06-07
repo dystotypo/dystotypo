@@ -42,22 +42,22 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function(){
+function1 = () => {
+  var headTag = document.getElementsByTagName('head')[0]
+  const linkforCSSfile = document.createElement("link");
+  linkforCSSfile.href = 'codefile.css'
+  linkforCSSfile.type = 'text/css'
+  linkforCSSfile.rel = 'stylesheet'
+  headTag.appendChild(linkforCSSfile);
+  document.body.appendChild(headTag);
+};
 
-
-  var start_style = sessionStorage.getItem('href');
-  switch (start_style) {
-    case 'css/stylehome.css':
-      document.getElementById('theme').setAttribute('href', 'stylehome.css');
-      break;
-
-      case 'css/cubism.css':
-        document.getElementById('theme').setAttribute('href', 'css/cubism.css');
-        break;
-  }})
-
-function changeTheme(newTheme) {
-  const elem = document.getElementById('theme');
-  elem.href = newTheme;
-  sessionStorage.setItem('href', newTheme);
-}
+function2 = () => {
+  var headTag = document.getElementsByTagName('head')[0]
+  const linkforCSSfile = document.createElement("link");
+  linkforCSSfile.href = 'css/cubism.css'
+  linkforCSSfile.type = 'text/css'
+  linkforCSSfile.rel = 'stylesheet'
+  headTag.appendChild(linkforCSSfile);
+  document.body.appendChild(headTag);
+};
