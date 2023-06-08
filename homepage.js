@@ -16,22 +16,7 @@ $(document).ready(function(){
       break;
     case 'css/cubism.css':
       document.getElementById('theme').setAttribute('href', 'css/cubism.css');
-      break;
-    case 'css/XIX.css':
-      document.getElementById('theme').setAttribute('href', 'assets/css/XIX.css');
-      break;
-    case 'assets/css/bauhaus.css':
-      document.getElementById('theme').setAttribute('href', 'assets/css/bauhaus.css');
-      break;
-     case 'assets/css/sixties.css':
-      document.getElementById('theme').setAttribute('href', 'assets/css/sixties.css');
-      break;
-    case 'assets/css/vapo.css':
-      document.getElementById('theme').setAttribute('href', 'assets/css/vapo.css');
-      break;
-    case 'assets/css/future.css':
-        document.getElementById('theme').setAttribute('href', 'assets/css/future.css');
-        break;}
+      break;}
 
 
 function changeTheme(newTheme) {
