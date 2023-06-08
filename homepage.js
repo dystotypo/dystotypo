@@ -61,16 +61,6 @@ function2 = () => {
   headTag.appendChild(linkforCSSfile);
   document.body.appendChild(headTag);
   sessionStorage.setItem('href', linkforCSSfile.href);
-
-  if (linkforCSSfile.getAttribute("href") === "css/stylehome.css") {
-    linkforCSSfile.setAttribute("href", "css/cubism.css");
-    // Store the theme preference in local storage
-    localStorage.setItem("theme", "css/cubism.css");
-  } else {
-    linkforCSSfile.setAttribute("href", "css/stylehome.css");
-    // Store the theme preference in local storage
-    localStorage.setItem("theme", "css/stylehome.css");
-  }
   }
 
 
@@ -78,7 +68,7 @@ function2 = () => {
 window.addEventListener("load", function() {
 var storedTheme = localStorage.getItem("theme");
 if (storedTheme) {
-  var themeLink = document.getElementById("theme-link");
+  var themeLink = document.getElementById("link");
   themeLink.setAttribute("href", storedTheme);
 }
 });
