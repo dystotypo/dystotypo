@@ -5,22 +5,16 @@ function addNoise() {
 }
 
 
-function changeTheme() {
+function changeTheme(themeName) {
   var themeLink = document.getElementById("theme-link");
 
-  if (themeLink.getAttribute("href") === "css/stylehome.css") {
-    themeLink.setAttribute("href", "css/cubism.css");
-    // Store the theme preference in local storage
-    localStorage.setItem("theme", "css/cubism.css");
-  } else {
-    themeLink.setAttribute("href", "css/stylehome.css");
-    // Store the theme preference in local storage
-    localStorage.setItem("theme", "css/stylehome.css");
-  }
-};
+  themeLink.setAttribute("href", themeName);
+  // Store the theme preference in local storage
+  localStorage.setItem("theme", themeName);
+}
 
 window.addEventListener("load", function() {
-  var storedTheme = localStorage.getItem("theme-link");
+  var storedTheme = localStorage.getItem("theme");
   if (storedTheme) {
     var themeLink = document.getElementById("theme-link");
     themeLink.setAttribute("href", storedTheme);
