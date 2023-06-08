@@ -13,7 +13,7 @@ function changeTheme(themeName) {
   localStorage.setItem("theme", themeName);
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
   var storedTheme = localStorage.getItem("theme");
   if (storedTheme) {
     var themeLink = document.getElementById("theme-link");
