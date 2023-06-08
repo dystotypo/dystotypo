@@ -8,14 +8,14 @@ function addNoise() {
 function changeTheme() {
   var themeLink = document.getElementById("theme-link");
 
-  if (themeLink.getAttribute("href") === "stylehome.css") {
-    themeLink.setAttribute("href", "cubism.css");
+  if (themeLink.getAttribute("href") === "css/stylehome.css") {
+    themeLink.setAttribute("href", "css/cubism.css");
     // Store the theme preference in local storage
-    localStorage.setItem("theme", "cubism.css");
+    localStorage.setItem("theme", "css/cubism.css");
   } else {
-    themeLink.setAttribute("href", "stylehome.css");
+    themeLink.setAttribute("href", "css/stylehome.css");
     // Store the theme preference in local storage
-    localStorage.setItem("theme", "stylehome.css");
+    localStorage.setItem("theme", "css/stylehome.css");
   }
 }
 
