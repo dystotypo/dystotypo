@@ -5,26 +5,27 @@ function addNoise() {
 }
 
 
-$(document).ready(function(){
+function changeTheme() {
+  var themeLink = document.getElementById("theme-link");
 
+  if (themeLink.getAttribute("href") === "stylehome.css") {
+    themeLink.setAttribute("href", "cubism.css");
+    // Store the theme preference in local storage
+    localStorage.setItem("theme", "cubism.css");
+  } else {
+    themeLink.setAttribute("href", "stylehome.css");
+    // Store the theme preference in local storage
+    localStorage.setItem("theme", "stylehome.css");
+  }
+}
 
-
-  var start_style = sessionStorage.getItem('href');
-  switch (start_style) {
-    case 'css/stylehome.css':
-      document.getElementById('theme').setAttribute('href', 'css/stylehome.css');
-      break;
-    case 'css/cubism.css':
-      document.getElementById('theme').setAttribute('href', 'css/cubism.css');
-      break;}
-
-
-function changeTheme(newTheme) {
-  const elem = document.getElementById('theme');
-  elem.href = newTheme;
-  sessionStorage.setItem('href', newTheme);
-}});
-
+window.addEventListener("load", function() {
+  var storedTheme = localStorage.getItem("theme-link");
+  if (storedTheme) {
+    var themeLink = document.getElementById("theme-link");
+    themeLink.setAttribute("href", storedTheme);
+  }
+});
 
 function oncomingissue(){
   alert("This is an on coming issue. The future issues are coming down the pike!")
