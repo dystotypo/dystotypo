@@ -113,6 +113,7 @@ header li a {
 .navbar-brand{
   padding-left:30px;
   text-decoration: none;
+  z-index: 6;
 }
 
 .nav-link{
