@@ -17,7 +17,7 @@ function changeTheme() {
     // Store the theme preference in local storage
     localStorage.setItem("theme", "css/stylehome.css");
   }
-}
+};
 
 window.addEventListener("load", function() {
   var storedTheme = localStorage.getItem("theme-link");
