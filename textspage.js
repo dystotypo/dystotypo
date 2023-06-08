@@ -56,6 +56,28 @@ $(document).ready(function () {
     })
   }
 
+<<<<<<< Updated upstream
   function oncomingissue(){
     alert("This is an on coming issue. The future issues are coming down the pike!")
   }
+=======
+//metadata info fill
+
+function filltabs(){
+			filltab("#file .truth","list-truth","#truth")
+			filltab("#file .memory","list-memory","#memory")
+			filltab("#file .time","list-time","#time")
+		}
+
+    function filltab(what,style,where) {
+			var list = `<li class="list $style">$content</li>`
+			var elements = $(what);
+			$(where+' ul').empty();
+			for (var i=0; i<elements.length; i++) {
+				$(where+' ul').append(list.tpl({
+					style:style,
+					content: elements[i].innerHTML
+				}) )
+			}
+		}
+>>>>>>> Stashed changes
