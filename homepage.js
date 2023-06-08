@@ -4,74 +4,42 @@ function addNoise() {
   $('.noise').css('opacity',1);
 }
 
-$(document).ready(function () {
-  var mySwiper = new Swiper(".swiper", {
-    autoHeight: true,
-    autoplay: {
-      delay: 8000,
-      disableOnInteraction: false
-    },
-    speed: 500,
-    direction: "horizontal",
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "progressbar"
-    },
-    loop: false,
-    effect: "slide",
-    spaceBetween: 30,
-    on: {
-      init: function () {
-        $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
-        $(".swiper-pagination-custom .swiper-pagination-switch").eq(0).addClass("active");
-      },
-      slideChangeTransitionStart: function () {
-        $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
-        $(".swiper-pagination-custom .swiper-pagination-switch").eq(mySwiper.realIndex).addClass("active");
-      }
-    }
-  });
-  $(".swiper-pagination-custom .swiper-pagination-switch").click(function () {
-    mySwiper.slideTo($(this).index());
-    $(".swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
-    $(this).addClass("active");
-  });
-});
 
-function1 = () => {
-  var headTag = document.getElementsByTagName('head')[0]
-  const linkforCSSfile = document.createElement("link");
-  linkforCSSfile.href = 'codefile.css'
-  linkforCSSfile.type = 'text/css'
-  linkforCSSfile.rel = 'stylesheet'
-  headTag.appendChild(linkforCSSfile);
-  document.body.appendChild(headTag);
-};
-
-function2 = () => {
-  var headTag = document.getElementsByTagName('head')[0]
-  const linkforCSSfile = document.createElement("link");
-  linkforCSSfile.href = 'css/cubism.css'
-  linkforCSSfile.type = 'text/css'
-  linkforCSSfile.rel = 'stylesheet'
-  headTag.appendChild(linkforCSSfile);
-  document.body.appendChild(headTag);
-  sessionStorage.setItem('href', linkforCSSfile.href);
-  };
+$(document).ready(function(){
 
 
-// Check if the user has a stored theme preference and apply it on page load
-window.addEventListener("load", function() {
-var storedTheme = localStorage.getItem("theme");
-if (storedTheme) {
-  var themeLink = document.getElementById("link");
-  themeLink.setAttribute("href", storedTheme);
-}
-});
+
+  var start_style = sessionStorage.getItem('href');
+  switch (start_style) {
+    case 'css/stylehome.css':
+      document.getElementById('theme').setAttribute('href', 'css/stylehome.css');
+      break;
+    case 'css/cubism.css':
+      document.getElementById('theme').setAttribute('href', 'css/cubism.css');
+      break;
+    case 'css/XIX.css':
+      document.getElementById('theme').setAttribute('href', 'assets/css/XIX.css');
+      break;
+    case 'assets/css/bauhaus.css':
+      document.getElementById('theme').setAttribute('href', 'assets/css/bauhaus.css');
+      break;
+     case 'assets/css/sixties.css':
+      document.getElementById('theme').setAttribute('href', 'assets/css/sixties.css');
+      break;
+    case 'assets/css/vapo.css':
+      document.getElementById('theme').setAttribute('href', 'assets/css/vapo.css');
+      break;
+    case 'assets/css/future.css':
+        document.getElementById('theme').setAttribute('href', 'assets/css/future.css');
+        break;}
+
+
+function changeTheme(newTheme) {
+  const elem = document.getElementById('theme');
+  elem.href = newTheme;
+  sessionStorage.setItem('href', newTheme);
+}});
+
 
 function oncomingissue(){
   alert("This is an on coming issue. The future issues are coming down the pike!")
