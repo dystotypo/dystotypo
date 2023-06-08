@@ -61,7 +61,7 @@ function2 = () => {
   headTag.appendChild(linkforCSSfile);
   document.body.appendChild(headTag);
   sessionStorage.setItem('href', linkforCSSfile.href);
-  }
+  };
 
 
 // Check if the user has a stored theme preference and apply it on page load
