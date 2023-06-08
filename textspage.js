@@ -56,11 +56,6 @@ $(document).ready(function () {
     })
   }
 
-<<<<<<< Updated upstream
-  function oncomingissue(){
-    alert("This is an on coming issue. The future issues are coming down the pike!")
-  }
-=======
 //metadata info fill
 
 function filltabs(){
@@ -80,4 +75,3 @@ function filltabs(){
 				}) )
 			}
 		}
->>>>>>> Stashed changes
