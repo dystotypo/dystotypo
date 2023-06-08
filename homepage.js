@@ -61,7 +61,27 @@ function2 = () => {
   headTag.appendChild(linkforCSSfile);
   document.body.appendChild(headTag);
   sessionStorage.setItem('href', linkforCSSfile.href);
-};
+
+  if (linkforCSSfile.getAttribute("href") === "css/stylehome.css") {
+    linkforCSSfile.setAttribute("href", "css/cubism.css");
+    // Store the theme preference in local storage
+    localStorage.setItem("theme", "css/cubism.css");
+  } else {
+    linkforCSSfile.setAttribute("href", "css/stylehome.css");
+    // Store the theme preference in local storage
+    localStorage.setItem("theme", "css/stylehome.css");
+  }
+  }
+
+
+// Check if the user has a stored theme preference and apply it on page load
+window.addEventListener("load", function() {
+var storedTheme = localStorage.getItem("theme");
+if (storedTheme) {
+  var themeLink = document.getElementById("theme-link");
+  themeLink.setAttribute("href", storedTheme);
+}
+});
 
 function oncomingissue(){
   alert("This is an on coming issue. The future issues are coming down the pike!")
