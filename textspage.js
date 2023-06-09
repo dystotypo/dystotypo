@@ -97,7 +97,7 @@ function filltabs(){
 
     function filltab(what,style,where) {
 
-			var list = `<li class="list $style">$content</li>`
+      var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
 			$(where+' ul').empty();
@@ -107,4 +107,13 @@ function filltabs(){
 					content: elements[i].innerHTML
 				}) )
 			}
+		}
+
+    function goto(id) {
+			var t = $(id)[0].offsetTop;
+			$('body').animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+				$(id).removeClass('animate');
+			},5000);
 		}
