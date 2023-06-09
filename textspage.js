@@ -28,13 +28,6 @@ $(document).ready(function () {
 });
 });
 
-<<<<<<< Updated upstream
-=======
-$(document).ready(main);
-
->>>>>>> Stashed changes
-//highlights
-
   function main() {
     $('#showtruth').click(function() {
       if (this.checked)
@@ -102,12 +95,12 @@ function filltabs(){
 
     function changeTheme(themeName) {
       var themeLink = document.getElementById("theme-link");
-    
+
       themeLink.setAttribute("href", themeName);
       // Store the theme preference in local storage
       localStorage.setItem("theme", themeName);
     }
-    
+
     window.addEventListener("DOMContentLoaded", function() {
       var storedTheme = localStorage.getItem("theme");
       if (storedTheme) {
@@ -115,7 +108,7 @@ function filltabs(){
         themeLink.setAttribute("href", storedTheme);
       }
     });
-    
+
     function oncomingissue(){
       alert("The future issues are coming down the pike!")
     }
