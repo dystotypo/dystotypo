@@ -58,10 +58,18 @@ $(document).ready(function () {
 
 //metadata info fill
 
+String.prototype.tpl = function(o) {
+    var r = this ;
+    for (var i in o) {
+        r = r.replace(new RegExp("\\$"+i, 'g'),o[i])
+    }
+    return r
+}
+
 function filltabs(){
 			filltab("#file .truth","list-truth","#truth")
-			filltab("#file .memory","list-memory","#memory")
-			filltab("#file .time","list-time","#time")
+//			filltab("#file .memory","list-memory","#memory")
+//			filltab("#file .time","list-time","#time")
 		}
 
     function filltab(what,style,where) {

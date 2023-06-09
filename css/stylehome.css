@@ -621,6 +621,11 @@ ul {
   margin: 0;
 }
 
+.list-truth{
+  font-family:'scribish';
+}
+
+
 /*.active, .:hover {
   background-color: #555;
 }*/
