@@ -17,16 +17,29 @@ $(document).ready(main);
 
 $(document).ready(function () {
   $('#icon1').click(function () {
-        $('#text').load('1984.html');
-        filltabs();
+        $('#text').load('1984.html')
+        $('#file').html(d)
+        $('.show').prop("checked", false)
+        filltabs()
+        addIds()
   });
   $('#icon2').click(function () {
-        $('#text').load('fahrenheit.html');
+        $('#text').load('fahrenheit.html')
+        $('#file').html(d)
+        $('.show').prop("checked", false)
+        filltabs()
+        addIds()
   });
   $('#icon3').click(function () {
-        $('#text').load('bravenewworld.html');
+        $('#text').load('bravenewworld.html')
+        $('#file').html(d)
+        $('.show').prop("checked", false)
+        filltabs();
+        addIds();
 });
 });
+
+//highlights functionalities
 
   function main() {
     $('#showtruth').click(function() {
@@ -77,8 +90,8 @@ function addId(what, prefix) {
 
 function filltabs(){
 			filltab("#file .truth","list-truth","#truth");
-//			filltab("#file .memory","list-memory","#memory")
-//			filltab("#file .time","list-time","#time")
+      filltab("#file .memory","list-memory","#memory")
+      filltab("#file .time","list-time","#time")
 		}
 
     function filltab(what,style,where) {
@@ -92,6 +105,8 @@ function filltabs(){
 				}) )
 			}
 		}
+
+//change themes
 
     function changeTheme(themeName) {
       var themeLink = document.getElementById("theme-link");
