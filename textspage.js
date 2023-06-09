@@ -20,17 +20,19 @@ $(document).ready(function () {
         $('#text').load('1984.html');
         filltabs();
   });
-
-$('#icon2').click(function () {
-    $('#text').load('fahrenheit.html');
+  $('#icon2').click(function () {
+        $('#text').load('fahrenheit.html');
+  });
+  $('#icon3').click(function () {
+        $('#text').load('bravenewworld.html');
+});
 });
 
-$('#icon3').click(function () {
-  $('#text').load('bravenewworld.html');
-});
+<<<<<<< Updated upstream
+=======
+$(document).ready(main);
 
-});
-
+>>>>>>> Stashed changes
 //highlights
 
   function main() {
@@ -67,6 +69,8 @@ String.prototype.tpl = function(o) {
 function addIds() { //function one
 
     addId('.truth','truth') //adds ids to the annotations
+    addId('.memory', 'memory')
+    addId('.time', 'time')
 
 }
 
@@ -80,7 +84,6 @@ function addId(what, prefix) {
 
 function filltabs(){
 			filltab("#file .truth","list-truth","#truth");
-      console.log('tabs');
 //			filltab("#file .memory","list-memory","#memory")
 //			filltab("#file .time","list-time","#time")
 		}
