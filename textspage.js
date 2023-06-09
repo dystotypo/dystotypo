@@ -17,23 +17,23 @@ $(document).ready(main);
 
 $(document).ready(function () {
   $('#icon1').click(function () {
-        $('#text').load('1984.html')
-        $('#file').html(d)
-        $('.show').prop("checked", false)
-        filltabs()
-        addIds()
+        $('#text').load('1984.html');
+        // $('#file').html(d);
+        $('.show').prop("checked", false);
+        filltabs();
+        addIds();
   });
   $('#icon2').click(function () {
-        $('#text').load('fahrenheit.html')
-        $('#file').html(d)
-        $('.show').prop("checked", false)
-        filltabs()
-        addIds()
+        $('#text').load('fahrenheit.html');
+        // $('#file').html(d);
+        $('.show').prop("checked", false);
+        filltabs();
+        addIds();
   });
   $('#icon3').click(function () {
-        $('#text').load('bravenewworld.html')
-        $('#file').html(d)
-        $('.show').prop("checked", false)
+        $('#text').load('bravenewworld.html');
+        // $('#file').html(d)
+        $('.show').prop("checked", false);
         filltabs();
         addIds();
 });
@@ -89,14 +89,17 @@ function addId(what, prefix) {
 }
 
 function filltabs(){
-			filltab("#file .truth","list-truth","#truth");
-      filltab("#file .memory","list-memory","#memory")
-      filltab("#file .time","list-time","#time")
+
+			filltab("#text .truth","list-truth","#truth");
+      filltab("#text .memory","list-memory","#memory");
+      filltab("#text .time","list-time","#time");
 		}
 
     function filltab(what,style,where) {
+
 			var list = `<li class="list $style">$content</li>`
 			var elements = $(what);
+      console.log(elements);
 			$(where+' ul').empty();
 			for (var i=0; i<elements.length; i++) {
 				$(where+' ul').append(list.tpl({
