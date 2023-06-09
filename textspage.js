@@ -16,6 +16,7 @@ for (i = 0; i < coll.length; i++) {
 $(document).ready(function () {
   $('#icon1').click(function () {
         $('#text').load('1984.html');
+        filltabs();
   });
   });
 
@@ -66,8 +67,23 @@ String.prototype.tpl = function(o) {
     return r
 }
 
+function addIds() { //function one
+
+    addId('.truth','truth') //adds ids to the annotations
+
+}
+
+function addId(what, prefix) {
+    var id = '0'
+    var elements = $(what);
+    for (var i=0; i<elements.length; i++) { //adding numbered ids
+        elements[i].id = prefix + "-" + id++
+    }
+}
+
 function filltabs(){
-			filltab("#file .truth","list-truth","#truth")
+			filltab("#file .truth","list-truth","#truth");
+      console.log('tabs');
 //			filltab("#file .memory","list-memory","#memory")
 //			filltab("#file .time","list-time","#time")
 		}
