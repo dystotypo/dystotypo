@@ -20,18 +20,13 @@ $(document).ready(function () {
         $('#text').load('1984.html');
         filltabs();
   });
-
-$('#icon2').click(function () {
-    $('#text').load('fahrenheit.html');
+  $('#icon2').click(function () {
+        $('#text').load('fahrenheit.html');
+  });
+  $('#icon3').click(function () {
+        $('#text').load('bravenewworld.html');
 });
-
-$('#icon3').click(function () {
-  $('#text').load('bravenewworld.html');
 });
-
-});
-
-//highlights
 
   function main() {
     $('#showtruth').click(function() {
@@ -67,6 +62,8 @@ String.prototype.tpl = function(o) {
 function addIds() { //function one
 
     addId('.truth','truth') //adds ids to the annotations
+    addId('.memory', 'memory')
+    addId('.time', 'time')
 
 }
 
@@ -80,7 +77,6 @@ function addId(what, prefix) {
 
 function filltabs(){
 			filltab("#file .truth","list-truth","#truth");
-      console.log('tabs');
 //			filltab("#file .memory","list-memory","#memory")
 //			filltab("#file .time","list-time","#time")
 		}
@@ -96,3 +92,23 @@ function filltabs(){
 				}) )
 			}
 		}
+
+    function changeTheme(themeName) {
+      var themeLink = document.getElementById("theme-link");
+    
+      themeLink.setAttribute("href", themeName);
+      // Store the theme preference in local storage
+      localStorage.setItem("theme", themeName);
+    }
+    
+    window.addEventListener("DOMContentLoaded", function() {
+      var storedTheme = localStorage.getItem("theme");
+      if (storedTheme) {
+        var themeLink = document.getElementById("theme-link");
+        themeLink.setAttribute("href", storedTheme);
+      }
+    });
+    
+    function oncomingissue(){
+      alert("The future issues are coming down the pike!")
+    }
