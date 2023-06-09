@@ -18,19 +18,16 @@ $(document).ready(function () {
         $('#text').load('1984.html');
         filltabs();
   });
-  });
 
-  $(document).ready(function () {
-    $('#icon2').click(function () {
-          $('#text').load('fahrenheit.html');
-    });
-    });
+$('#icon2').click(function () {
+    $('#text').load('fahrenheit.html');
+});
 
-$(document).ready(function () {
-  $('#icon3').click(function () {
-        $('#text').load('bravenewworld.html');
-  });
-  });
+$('#icon3').click(function () {
+  $('#text').load('bravenewworld.html');
+});
+
+});
 
   $(document).ready(main);
 
