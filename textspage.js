@@ -13,24 +13,26 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+$(document).ready(filltabs);
+
 $(document).ready(function () {
   $('#icon1').click(function () {
     $('#text').load('1984.html');
-    filltabs();
+    //filltabs();
         // $('#file').html(d);
         $('.show').prop("checked", false);
         addIds();
   });
   $('#icon2').click(function () {
         $('#text').load('fahrenheit.html');
-        filltabs();
+        //filltabs();
         // $('#file').html(d);
         $('.show').prop("checked", false);
         addIds();
   });
   $('#icon3').click(function () {
         $('#text').load('bravenewworld.html');
-        filltabs();
+        //filltabs();
         // $('#file').html(d)
         $('.show').prop("checked", false);
         addIds();
