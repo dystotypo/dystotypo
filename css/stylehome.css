@@ -159,9 +159,9 @@ header li a {
   z-index: 2;
 }
 
-a:hover{
+/*a:hover{
   color:black;
-}
+}*/
 
 a:visited{
   color:white;
@@ -170,7 +170,7 @@ a:visited{
 
 li:visited{
   color:white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /*texts*/
