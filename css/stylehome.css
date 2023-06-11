@@ -121,6 +121,7 @@ header li a {
 
 .nav-link{
   font-size: large;
+  color: white;
   position: relative;
   left: 26cm;
   text-decoration: none;
