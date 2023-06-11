@@ -236,7 +236,7 @@ li:visited{
   animation: noise 1s steps(8, end) infinite both;
 }*/
 
-.noise{
+#bg{
   background: url(https://github.com/dystotypo/dystotypo/blob/95e3c7539a5b0995027f4877cf40fd15416d4268/img/renaissance_book_1.jpg);
 }
 
