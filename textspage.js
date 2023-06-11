@@ -17,21 +17,21 @@ $(document).ready(function () {
   $('#icon1').click(function () {
         $('#text').load('1984.html');
         // $('#file').html(d);
-        $('.show').prop("checked", false);
+        //$('.show').prop("checked", false);
         filltabs();
         addIds();
   });
   $('#icon2').click(function () {
         $('#text').load('fahrenheit.html');
         // $('#file').html(d);
-        $('.show').prop("checked", false);
+        //$('.show').prop("checked", false);
         filltabs();
         addIds();
   });
   $('#icon3').click(function () {
         $('#text').load('bravenewworld.html');
         // $('#file').html(d)
-        $('.show').prop("checked", false);
+        //$('.show').prop("checked", false);
         filltabs();
         addIds();
 });
