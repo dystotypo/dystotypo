@@ -32,7 +32,7 @@ $(document).ready(function () {
     $('#text').load('bravenewworld.html');
         // $('#file').html(d)
     $('.show').prop("checked", false);
-    filltabs();
+    filltabs();                   
     addIds();
 });
 });
@@ -116,3 +116,15 @@ function filltabs(){
 				$(id).removeClass('animate');
 			},5000);
 		}
+
+    function scrollToElement(id) {
+      var target = document.getElementById(id);
+      if (target) {
+        var offsetTop = target.offsetTop;
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    }
+    
