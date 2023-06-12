@@ -138,9 +138,7 @@ function filltabs(){
 				}));
 			}
         // Remove highlight color from list elements
-  $(where + ' .list').css({
-    'background-color': 'transparent',
-    'border-color': 'transparent'
+    $(where + ' .list').css('background-color', 'inherit');
   });
 }
 
