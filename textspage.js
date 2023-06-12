@@ -148,14 +148,16 @@ function filltabs(){
 			},5000);
 		}
 
-    function scrollToElement(id) {
-      var target = document.getElementById(id);
-      if (target) {
-        var offsetTop = target.offsetTop;
-        window.scrollTo({
-          top: offsetTop,
-          behavior: 'smooth'
-        });
-      }
-    }
+    
+    //Alternative Function to GoTo
+    // function scrollToElement(id) {
+    //   var target = document.getElementById(id);
+    //   if (target) {
+    //     var offsetTop = target.offsetTop;
+    //     window.scrollTo({
+    //       top: offsetTop,
+    //       behavior: 'smooth'
+    //     });
+    //   }
+    // }
     
