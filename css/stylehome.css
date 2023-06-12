@@ -585,6 +585,8 @@ article:visited{
   background-color: none;
   flex: 1;
   margin: 5px;
+  height: 100px; 
+  overflow: auto;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
   background-color: #5b181f;
