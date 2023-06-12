@@ -64,6 +64,13 @@ $(document).ready(function () {
     });
     $('.show').prop("checked", false);
   });
+  $('#comparison').click(function () {
+    $('#text').load('comparison.html', function() {
+      filltabs();
+      addIds();
+    });
+    $('.show').prop("checked", false);
+  });
 });
 
 

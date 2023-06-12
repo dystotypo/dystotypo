@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brave New World</title>
+        <style>
+          .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 80px 200px;
+            gap: 10px;
+            background-color: none;
+            padding: 10px;
+          }
+          
+          .grid-container > div {
+            background-color: none;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            height: 230px;
+            overflow-y: scroll;
+          }
+          </style>
+    </head>
+    <body>
+      <div class="grid-container">
+        <div id="t1">1</div>
+        <div id="t2">2</div>
+        <div id="t3">3</div>   
+      </div>
+      <script>
+          $(document).ready(function(){
+
+          $('#t1').load("/1984.html");
+          $('#t2').load("/fahrenheit.html");
+          $('#t3').load("/bravenewworld.html");
+
+          });
+      </script>
+    </body>
+</html>
