@@ -520,7 +520,7 @@ article:visited{
   backdrop-filter: blur(5px);
   flex-shrink: 1;
   flex-grow: 1;
-  height: auto;
+  height: 150px;
   max-height: 0.5;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -697,3 +697,16 @@ ul {
   animation-iteration-count: 3;
   animation-fill-mode: backwards;
 }
+
+/*
+@keyframes bgcolor {
+  0% {
+    background-color: initial;
+  }
+  50% {
+    background-color: #FF0000;
+  }
+  100% {
+    background-color: initial;
+  }
+}*/

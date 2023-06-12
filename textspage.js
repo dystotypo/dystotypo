@@ -126,25 +126,25 @@ function filltabs(){
 		}
 
     function filltab(what,style,where) {
-      var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
+      var list = `<li class="list ${style}"><a href="#" onclick="goto('${where}', '${style}')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
 			$(where+' ul').empty();
 			for (var i=0; i<elements.length; i++) {
 				$(where+' ul').append(list.tpl({
-					style:style,
+					style: style,
           where: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}))
 			}
 		}
 
-    function goto(id) {
+    function goto(id, style) {
 			var t = $(id)[0].offsetTop;
 			$('#text').animate({ scrollTop: t - 600}, 200);
-			$(id).addClass('animate');
+			$(id).addClass(style);
 			setTimeout(function(){
-				$(id).removeClass('animate');
+				$(id).removeClass(style);
 			},5000);
 		}
 
