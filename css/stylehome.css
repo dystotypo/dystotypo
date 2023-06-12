@@ -691,6 +691,18 @@ ul {
 
 .dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
 
+@keyframes bgcolor {
+  0% {
+    background-color: initial; /* Initial background color */
+  }
+  50% {
+    background-color: #FF0000; /* Midpoint background color */
+  }
+  100% {
+    background-color: initial; /* Final background color */
+  }
+}
+
 .animate {
   animation-name: bgcolor ;
   animation-duration: 0.75s ;
