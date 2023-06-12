@@ -135,12 +135,9 @@ function filltabs(){
 				$(where+' ul').append(list.tpl({
 					style:style,
 					content: elements[i].innerHTML
-				}));
+				}))
 			}
-        // Remove highlight color from list elements
-    $(where + ' .list').css('background-color', 'inherit');
-  });
-}
+		}
 
     function goto(id) {
 			var t = $(id)[0].offsetTop;

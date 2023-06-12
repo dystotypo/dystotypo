@@ -576,7 +576,7 @@ article:visited{
 /*highlight functionalities*/
 
 #truth, #memory, #time{
-  background-color: #bab1a0;
+  background-color: none;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
   background-color: #5b181f;
@@ -683,7 +683,7 @@ ul {
 
 .animate {
   animation-name: bgcolor ;
-  animation-duration: 0.75s ; 
+  animation-duration: 0.75s ;
   animation-iteration-count: 3;
   animation-fill-mode: backwards;
 }
