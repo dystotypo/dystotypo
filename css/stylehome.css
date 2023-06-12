@@ -520,7 +520,7 @@ article:visited{
   backdrop-filter: blur(5px);
   flex-shrink: 1;
   flex-grow: 1;
-  height: 150px;
+  height: auto;
   max-height: 0.5;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
