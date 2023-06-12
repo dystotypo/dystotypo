@@ -575,8 +575,16 @@ article:visited{
 
 /*highlight functionalities*/
 
+#sentenceContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 #truth, #memory, #time{
   background-color: none;
+  flex: 1;
+  margin: 5px;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
   background-color: #5b181f;
