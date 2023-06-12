@@ -118,35 +118,58 @@ function addId(what, prefix) {
     }
 }
 
-function filltabs(){
+function filltab(what, style, where) {
+  var elements = $(what);
+  $(where + ' ul').empty();
+  for (var i = 0; i < elements.length; i++) {
+    var listItem = $('<li>').addClass('list').addClass(style);
+    var link = $('<a>').attr('href', '#').text(elements[i].innerHTML);
+    link.on('click', createScrollToFunction('#' + elements[i].id));
+    listItem.append(link);
+    $(where + ' ul').append(listItem);
+  }
+}
 
-			filltab("#text .truth","list-truth","#truth");
-      filltab("#text .memory","list-memory","#memory");
-      filltab("#text .time","list-time","#time");
-		}
+function createScrollToFunction(id) {
+  return function() {
+    var t = $(id)[0].offsetTop;
+    $('#text').animate({ scrollTop: t }, 200);
+    $(id).addClass('animate');
+    setTimeout(function() {
+      $(id).removeClass('animate');
+    }, 5000);
+  };
+}
 
-    function filltab(what,style,where) {
-      var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
-			var elements = $(what);
-      console.log(elements);
-			$(where+' ul').empty();
-			for (var i=0; i<elements.length; i++) {
-				$(where+' ul').append(list.tpl({
-					style:style,
-          where: '#'+elements[i].id,
-					content: elements[i].innerHTML
-				}))
-			}
-		}
-
-    function goto(id) {
-			var t = $(id)[0].offsetTop;
-			$('#text').animate({ scrollTop: t }, 200);
-			$(id).addClass('animate');
-			setTimeout(function(){
-				$(id).removeClass('animate');
-			},5000);
-		}
+// function filltabs(){
+//
+// 			filltab("#text .truth","list-truth","#truth");
+//       filltab("#text .memory","list-memory","#memory");
+//       filltab("#text .time","list-time","#time");
+// 		}
+//
+//     function filltab(what,style,where) {
+//       var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
+// 			var elements = $(what);
+//       console.log(elements);
+// 			$(where+' ul').empty();
+// 			for (var i=0; i<elements.length; i++) {
+// 				$(where+' ul').append(list.tpl({
+// 					style:style,
+//           where: '#'+elements[i].id,
+// 					content: elements[i].innerHTML
+// 				}))
+// 			}
+// 		}
+//
+//     function goto(id) {
+// 			var t = $(id)[0].offsetTop;
+// 			$('#text').animate({ scrollTop: t }, 200);
+// 			$(id).addClass('animate');
+// 			setTimeout(function(){
+// 				$(id).removeClass('animate');
+// 			},5000);
+// 		}
 
 
     //Alternative Function to GoTo
