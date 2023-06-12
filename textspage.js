@@ -126,7 +126,6 @@ function filltabs(){
 		}
 
     function filltab(what,style,where) {
-
       var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
@@ -141,7 +140,7 @@ function filltabs(){
 
     function goto(id) {
 			var t = $(id)[0].offsetTop;
-			$('#text').animate({ scrollTop: t }, 200);
+			$('#text .scrollable-content').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			setTimeout(function(){
 				$(id).removeClass('animate');
