@@ -32,7 +32,7 @@ for (i = 0; i < coll.length; i++) {
 //     $('#text').load('bravenewworld.html');
 //         // $('#file').html(d)
 //     $('.show').prop("checked", false);
-//     filltabs();                   
+//     filltabs();
 //     addIds();
 // });
 // });
@@ -47,7 +47,7 @@ $(document).ready(function () {
       });
       $('.show').prop("checked", false);
     });
-  
+
 
   $('#icon2').click(function () {
     $('#text').load('fahrenheit.html', function() {
@@ -135,9 +135,14 @@ function filltabs(){
 				$(where+' ul').append(list.tpl({
 					style:style,
 					content: elements[i].innerHTML
-				}) )
+				}));
 			}
-		}
+        // Remove highlight color from list elements
+  $(where + ' .list').css({
+    'background-color': 'transparent',
+    'border-color': 'transparent'
+  });
+}
 
     function goto(id) {
 			var t = $(id)[0].offsetTop;
@@ -148,7 +153,7 @@ function filltabs(){
 			},5000);
 		}
 
-    
+
     //Alternative Function to GoTo
     // function scrollToElement(id) {
     //   var target = document.getElementById(id);
@@ -160,4 +165,3 @@ function filltabs(){
     //     });
     //   }
     // }
-    
