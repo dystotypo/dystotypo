@@ -13,29 +13,60 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+// $(document).ready(function () {
+//   $('#icon1').click(function () {
+//     $('#text').load('1984.html');
+//         // $('#file').html(d);
+//     $('.show').prop("checked", false);
+//     filltabs();
+//     addIds();
+//   });
+//   $('#icon2').click(function () {
+//     $('#text').load('fahrenheit.html');
+//         // $('#file').html(d);
+//     $('.show').prop("checked", false);
+//     filltabs();
+//     addIds();
+//   });
+//   $('#icon3').click(function () {
+//     $('#text').load('bravenewworld.html');
+//         // $('#file').html(d)
+//     $('.show').prop("checked", false);
+//     filltabs();                   
+//     addIds();
+// });
+// });
+
+// Testing alternatives
+
 $(document).ready(function () {
-  $('#icon1').click(function () {
-    $('#text').load('1984.html');
-        // $('#file').html(d);
-    $('.show').prop("checked", false);
-    filltabs();
-    addIds();
-  });
+    $('#icon1').click(function () {
+      $('#text').load('1984.html', function() {
+        filltabs();
+        addIds();
+      });
+      $('.show').prop("checked", false);
+    });
+  
+
   $('#icon2').click(function () {
-    $('#text').load('fahrenheit.html');
-        // $('#file').html(d);
+    $('#text').load('fahrenheit.html', function() {
+      filltabs();
+      addIds();
+    });
     $('.show').prop("checked", false);
-    filltabs();
-    addIds();
   });
+
   $('#icon3').click(function () {
-    $('#text').load('bravenewworld.html');
-        // $('#file').html(d)
+    $('#text').load('bravenewworld.html', function() {
+      filltabs();
+      addIds();
+    });
     $('.show').prop("checked", false);
-    filltabs();                   
-    addIds();
+  });
 });
-});
+
+
 
 $(document).ready(main);
 //highlights functionalities
