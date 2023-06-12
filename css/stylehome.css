@@ -680,3 +680,10 @@ ul {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
+
+.animate {
+  animation-name: bgcolor ;
+  animation-duration: 0.75s ; 
+  animation-iteration-count: 3;
+  animation-fill-mode: backwards;
+}
