@@ -96,7 +96,7 @@ function filltabs(){
 
     function filltab(what,style,where) {
 
-      var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+      var list = `<li class="list $style"><a href="#" onclick="scrollToElement('$place')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
 			$(where+' ul').empty();
