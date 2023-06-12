@@ -141,7 +141,7 @@ function filltabs(){
 
     function goto(id) {
 			var t = $(id)[0].offsetTop;
-			$('text').animate({ scrollTop: t }, 200);
+			$('#text').animate({ scrollTop: t }, 200);
 			$(id).addClass('animate');
 			setTimeout(function(){
 				$(id).removeClass('animate');
