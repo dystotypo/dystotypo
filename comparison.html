@@ -11,13 +11,12 @@
             background-color: none;
             padding: 10px;
           }
-          
+
           .grid-container > div {
-            font-size: small;
             background-color: none;
             text-align: center;
             padding: 20px 0;
-            font-size: 30px;
+            font-size: 15px;
             height: 280px;
             overflow-y: scroll;
           }
@@ -27,14 +26,20 @@
       <div class="grid-container">
         <div id="t1"></div>
         <div id="t2"></div>
-        <div id="t3"></div>   
+        <div id="t3"></div>
       </div>
       <script>
           $(document).ready(function(){
 
           $('#t1').load("1984.html");
+            filltabs();
+            addIds();
           $('#t2').load("fahrenheit.html");
+            filltabs();
+            addIds();
           $('#t3').load("bravenewworld.html");
+            filltabs();
+            addIds();
 
           });
       </script>
