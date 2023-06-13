@@ -64,12 +64,13 @@ $(document).ready(function () {
     });
     $('.show').prop("checked", false);
   });
-  $('#comparison').click(function () {
+  $('#comparison a').click(function() {
     $('#text').load('comparison.html', function() {
       filltabs();
       addIds();
     });
     $('.show').prop("checked", false);
+    $('.text-metadata').toggleClass('hidden');
   });
 });
 

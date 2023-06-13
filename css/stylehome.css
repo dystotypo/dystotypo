@@ -573,6 +573,10 @@ article:visited{
   }
 }
 
+.text-metadata.hidden {
+  display: none;
+}
+
 /*highlight functionalities*/
 
 #sentenceContent {
