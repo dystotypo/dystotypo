@@ -24,9 +24,9 @@
     </head>
     <body>
       <div class="grid-container">
-        <div id="t1"><h1>1984</h1></div>
-        <div id="t2"><h1>Brave New World</h1></div>
-        <div id="t3"><h1>Fahrenheit 451</h1></div>
+        <div id="t1"></div>
+        <div id="t2"></div>
+        <div id="t3"></div>
       </div>
       <script>
           $(document).ready(function(){
@@ -56,29 +56,21 @@
 
           function addIds() { //function one
 
-              addId('.truth','truth', 't1') //adds ids to the annotations
-              addId('.memory', 'memory', 't1')
-              addId('.time', 'time', 't1')
-
-              addId('.truth','truth', 't2') //adds ids to the annotations
-              addId('.memory', 'memory', 't2')
-              addId('.time', 'time', 't2')
-
-              addId('.truth','truth', 't3') //adds ids to the annotations
-              addId('.memory', 'memory', 't3')
-              addId('.time', 'time', 't3')
+              addId('.truth','truth') //adds ids to the annotations
+              addId('.memory', 'memory')
+              addId('.time', 'time')
 
           }
 
-          function addId(what, prefix, textId) {
+          function addId(what, prefix) {
               var id = '0'
               var elements = $(what);
               for (var i=0; i<elements.length; i++) { //adding numbered ids
-                  elements[i].id = prefix + "-" + textId + "-" + id++
+                  elements[i].id = prefix + "-" + id++
               }
           }
 
-          function filltab(what,style,where, textId) {
+          function filltab(what,style,where) {
             var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
             var elements = $(what);
             console.log(elements);
