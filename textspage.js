@@ -44,6 +44,7 @@ $(document).ready(function () {
       $('#text').load('1984.html', function() {
         filltabs();
         addIds();
+        $('.text-metadata').addClass('hidden'); // Hide metadata columns
       });
       $('.show').prop("checked", false);
     });
@@ -53,6 +54,7 @@ $(document).ready(function () {
     $('#text').load('fahrenheit.html', function() {
       filltabs();
       addIds();
+      $('.text-metadata').addClass('hidden'); // Hide metadata columns
     });
     $('.show').prop("checked", false);
   });
@@ -61,6 +63,7 @@ $(document).ready(function () {
     $('#text').load('bravenewworld.html', function() {
       filltabs();
       addIds();
+      $('.text-metadata').addClass('hidden'); // Hide metadata columns
     });
     $('.show').prop("checked", false);
   });
@@ -68,9 +71,9 @@ $(document).ready(function () {
     $('#text').load('comparison.html', function() {
       filltabs();
       addIds();
+      $('.text-metadata').removeClass('hidden'); // Show metadata columns
     });
     $('.show').prop("checked", false);
-    $('.text-metadata').toggleClass('hidden');
   });
 });
 
