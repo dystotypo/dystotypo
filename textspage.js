@@ -66,6 +66,14 @@ $(document).ready(function () {
   });
 });
 
+  $('#comparison').click(function () {
+      $('#text').load('comparison.html', function() {
+        filltabs();
+        addIds();
+      });
+      $('.show').prop("checked", false);
+    });
+});
 
 
 $(document).ready(main);
