@@ -64,9 +64,8 @@ $(document).ready(function () {
     });
     $('.show').prop("checked", false);
   });
-});
 
-  $('#comparison').click(function () {
+    $('#comparison').click(function () {
       $('#text').load('comparison.html', function() {
         filltabs();
         addIds();
