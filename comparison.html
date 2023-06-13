@@ -30,17 +30,18 @@
       </div>
       <script>
           $(document).ready(function(){
-
-          $('#t1').load("1984.html");
+            $('#t1').load("1984.html", function() {
             filltabs();
             addIds();
-          $('#t2').load("fahrenheit.html");
+          });
+            $('#t2').load("fahrenheit.html", function() {
             filltabs();
             addIds();
-          $('#t3').load("bravenewworld.html");
+          });
+          $('#t3').load("bravenewworld.html", function() {
             filltabs();
             addIds();
-
+          });
           });
       </script>
     </body>
