@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: 'RetromaVibes';
-  src: url('/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf') format('truetype');
-  src: url('/fonts/retroma-vibes-font/RetromavibesRegular-Yzwx2.otf') format('opentype');
+  src: url(/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf) format('truetype');
+  src: url(/fonts/retroma-vibes-font/RetromavibesRegular-Yzwx2.otf) format('opentype');
 }
 
 html,
@@ -157,7 +157,7 @@ header li a {
 }
 
 .nav-options{
-  color: white;
+  color: black;
   display: inline;
   padding-right: 10px;
   text-align: center;
