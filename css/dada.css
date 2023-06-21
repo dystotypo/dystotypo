@@ -5,13 +5,13 @@
 }*/
 
 @font-face {
-  font-family: 'Abril Fatface';
-  src: url('/AbrilFatface-Regular.ttf');
+  font-family: 'RetromaVibes';
+  src: url('/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf');
 }
 
 html,
 body {
-  font-family: "AbrilFatface", serif;
+  font-family: "RetromaVibes", serif;
   background-image: url('/img/cubism.jpg');
   place-items: center;
   overflow-x: hidden;
@@ -30,7 +30,7 @@ body {
 
 #titlelandingpage{
   margin: 150px;
-  font-family:'Abril Fatface';
+  font-family:'RetromaVibes';
   font-size: 180px;
   color: #FFFFFF;
   text-align: center;
@@ -41,7 +41,7 @@ body {
 .enterbutton{
   display: grid;
   position: relative;
-  font-family:'Abril Fatface';
+  font-family:'RetromaVibes';
   color: black;
   font-size: 20px;
   text-decoration: none !important;
@@ -82,8 +82,8 @@ body {
 /* navbar */
 
 header {
-  font: "Abril Fatface";
-  background-color: #6082B6;
+  font: "RetromaVibes";
+  background-color:burlywood;
   position: fixed;
   top: 0;
   left: 0;
@@ -239,78 +239,6 @@ li:visited{
 #bg{
   background: url('/img/cubism.jpg')
 }
-
-@-webkit-keyframes noise {
-  0% {
-    transform: translateX(0px, 0px);
-  }
-  10% {
-    transform: translate(-100px, 100px);
-  }
-  20% {
-    transform: translate(150px, -100px);
-  }
-  30% {
-    transform: translate(-100px, 100px);
-  }
-  40% {
-    transform: translate(100px, -150px);
-  }
-  50% {
-    transform: translate(-100px, 200px);
-  }
-  60% {
-    transform: translate(-200px, -100px);
-  }
-  70% {
-    transform: translateY(50px, 100px);
-  }
-  80% {
-    transform: translate(100px, -150px);
-  }
-  90% {
-    transform: translate(0px, 200px);
-  }
-  100% {
-    transform: translate(-100px, 100px);
-  }
-}
-@keyframes noise {
-  0% {
-    transform: translateX(0px, 0px);
-  }
-  10% {
-    transform: translate(-100px, 100px);
-  }
-  20% {
-    transform: translate(150px, -100px);
-  }
-  30% {
-    transform: translate(-100px, 100px);
-  }
-  40% {
-    transform: translate(100px, -150px);
-  }
-  50% {
-    transform: translate(-100px, 200px);
-  }
-  60% {
-    transform: translate(-200px, -100px);
-  }
-  70% {
-    transform: translateY(50px, 100px);
-  }
-  80% {
-    transform: translate(100px, -150px);
-  }
-  90% {
-    transform: translate(0px, 200px);
-  }
-  100% {
-    transform: translate(-100px, 100px);
-  }
-}
-
 
 #theme_1_book_1{
   display: block;
