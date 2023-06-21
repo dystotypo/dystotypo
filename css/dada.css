@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: 'RetromaVibes';
-  src: url('/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf');
+  src: url('/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf') format('truetype');
+  src: url('/fonts/retroma-vibes-font/RetromavibesRegular-Yzwx2.otf') format('opentype');
 }
 
 html,
@@ -84,6 +85,7 @@ body {
 header {
   font: "RetromaVibes";
   background-color: transparent;
+  border: solid black 2px;
   position: fixed;
   top: 0;
   left: 0;
