@@ -148,7 +148,7 @@ header li a {
 }
 
 .timeline li:hover{
-  color: white;
+  color: black;
   background-color: #c2700a;
   transition-duration: 0.5s;
 }
@@ -185,9 +185,12 @@ li:visited{
   width: 80%;
   text-align: center;
   font-size: 18px;
+  background-image: url('/img/newspaper.avif');
+  font-family: 'RetromaVibes';
 }
 
 .intro-text h1{
+  font-family: 'RetromaVibes';
   font-size: 80px;
 }
 
@@ -570,7 +573,7 @@ ul {
 }
 
 .dropbtn {
-  color: white;
+  color: black;
   border: none;
   text-transform: uppercase;
   background-color: transparent;
@@ -587,7 +590,7 @@ ul {
 .dropdown li{
   /*font-family: 'Dosis';*/
   font-size: 25px;
-  color: #eaffd6 !important;
+  color: black !important;
   position: relative;
   display: block;
 }
@@ -605,7 +608,7 @@ ul {
 .dropdown-content a {
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: black;
   padding-left: 4%;
   display: block;
 }
