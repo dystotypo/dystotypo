@@ -12,7 +12,7 @@
 html,
 body {
   font-family: "RetromaVibes", serif;
-  background-image: url('/img/cubism.jpg');
+  background-image: url('/img/newspaper.avif');
   place-items: center;
   overflow-x: hidden;
   font-size: 16px;
@@ -83,7 +83,7 @@ body {
 
 header {
   font: "RetromaVibes";
-  background-color:burlywood;
+  background-color: transparent;
   position: fixed;
   top: 0;
   left: 0;
@@ -106,7 +106,7 @@ header {
 }
 
 header li a {
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -115,20 +115,21 @@ header li a {
 
 .navbar-brand{
   padding-left:30px;
+  color: black;
   text-decoration: none;
   z-index: 6;
 }
 
 .nav-link{
   font-size: large;
-  color: white;
+  color: black;
   position: relative;
   left: 26cm;
   text-decoration: none;
 }
 
 .timeline {
-  border: solid white 2px;
+  border: solid black 2px;
   position: fixed;
   top: 10%;
   height: 45px;
@@ -148,7 +149,7 @@ header li a {
 
 .timeline li:hover{
   color: white;
-  background-color: #6082B6;
+  background-color: #c2700a;
   transition-duration: 0.5s;
 }
 
@@ -268,7 +269,7 @@ article{
     padding-top: 60px;
     padding: 20px;
     color: white;
-    background-color: #6082B6;
+    background-color: #c2700a;
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 5px;
@@ -302,7 +303,7 @@ section#img03 {
 }
 
 section.normal {
-  background-color: #6082B6;
+  background-color: #c2700a;
   color: white;
   min-height: 300px;
   min-width: 350px;
@@ -312,7 +313,7 @@ section.normal {
 /*This section should be shorted somehow, cause it doesn't seem a good idea to repeat codes for doing the same thing*/
 section.book2{
   position: relative;
-  background-color: royalblue;
+  background-color: #70636d;
   min-height: 400px;
   box-shadow: inset 3px 3px 9px rgba(0, 0, 0, 0.466);
   background-position: center center;
@@ -323,7 +324,7 @@ section.book2{
 
 section.book3{
   position: relative;
-  background-color: royalblue;
+  background-color: #70636d;
   min-height: 400px;
   box-shadow: inset 3px 3px 9px rgba(0, 0, 0, 0.466);
   background-position: center center;
@@ -611,4 +612,4 @@ ul {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: #6082B6; transition-duration: 0.5s;}
+.dropdown-content a:hover {background-color: pink; transition-duration: 0.5s;}
