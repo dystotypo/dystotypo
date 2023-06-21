@@ -7,12 +7,11 @@
 @font-face {
   font-family: 'RetromaVibes';
   src: url(/fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf) format('truetype');
-  src: url(/fonts/retroma-vibes-font/RetromavibesRegular-Yzwx2.otf) format('opentype');
 }
 
 html,
 body {
-  font-family: "RetromaVibes", serif;
+  font-family: "RetromaVibes";
   background-image: url('/img/newspaper.avif');
   place-items: center;
   overflow-x: hidden;
@@ -140,7 +139,7 @@ header li a {
   z-index: 1;
   display: grid;
   backdrop-filter: blur(5px);
-  font-family: 'RetromaVibes';
+  font: 'RetromaVibes';
 }
 
 .timeline li{
@@ -189,11 +188,11 @@ li:visited{
   text-align: center;
   font-size: 18px;
   background-image: url('/img/newspaper.avif');
-  font-family: 'RetromaVibes';
+  font: 'RetromaVibes';
 }
 
 .intro-text h1{
-  font-family: 'RetromaVibes';
+  font: 'RetromaVibes';
   font-size: 80px;
 }
 
