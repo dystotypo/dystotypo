@@ -274,7 +274,7 @@ article{
     padding-top: 60px;
     padding: 20px;
     color: white;
-    background-color: #c2700a;
+    background-image: url(../img/old-paper.avif);
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 5px;
@@ -295,7 +295,7 @@ section.book1 {
 }
 
 section#img01 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/eyes-on-him.jpg);
+  background-image: url(../img/eyes-cartoon.jpg);
   background-size:cover;
 }
 
@@ -308,7 +308,7 @@ section#img03 {
 }
 
 section.normal {
-  background-color: #c2700a;
+  background-image: url(../img/old-paper.avif);
   color: white;
   min-height: 300px;
   min-width: 350px;
