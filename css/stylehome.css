@@ -9,6 +9,11 @@
   src: url(AbrilFatface-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'RedOctober';
+  src: url(../fonts/red-october-font/RedoctoberFat-OXB8.ttf);
+}
+
 html,
 body {
   font-family: "AbrilFatface", serif;
