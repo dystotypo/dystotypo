@@ -12,7 +12,7 @@
 html,
 body {
   font-family: 'RetromaVibes';
-  background-image: url('/img/newspaper.avif');
+  background-image: url('../img/newspaper.avif');
   place-items: center;
   overflow-x: hidden;
   font-size: 16px;
@@ -83,7 +83,7 @@ body {
 
 header {
   font: 'RetromaVibes';
-  background-color: transparent;
+  background-image: url('../img/newspaper.avif');
   border: solid black 2px;
   position: fixed;
   top: 0;
