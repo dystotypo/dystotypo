@@ -5,14 +5,15 @@
 }*/
 
 @font-face {
-    font-family: 'Abril Fatface';
-    src: url('/AbrilFatface-Regular.ttf');
+    font-family: 'pop';
+    src: url(../fonts/pop/POP!.ttf) format('truetype');
   }
   
   html,
   body {
-    font-family: "AbrilFatface", serif;
-    background-image: url('/img/cubism.jpg');
+    font-family: "pop", serif;
+    background-image: url(../img/pop-art.jpg);
+    object-fit: contain;
     place-items: center;
     overflow-x: hidden;
     font-size: 16px;
@@ -30,7 +31,7 @@
   
   #titlelandingpage{
     margin: 150px;
-    font-family:'Abril Fatface';
+    font-family:'pop';
     font-size: 180px;
     color: #FFFFFF;
     text-align: center;
@@ -41,7 +42,7 @@
   .enterbutton{
     display: grid;
     position: relative;
-    font-family:'Abril Fatface';
+    font-family:'pop';
     color: black;
     font-size: 20px;
     text-decoration: none !important;
@@ -82,8 +83,8 @@
   /* navbar */
   
   header {
-    font: "Abril Fatface";
-    background-color: #6082B6;
+    font: "pop";
+    background-color: #02D2FF;
     position: fixed;
     top: 0;
     left: 0;
