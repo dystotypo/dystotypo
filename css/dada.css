@@ -12,7 +12,7 @@
 html,
 body {
   font-family: 'RetromaVibes';
-  background-image: url('../img/newspaper.avif');
+  background-image: url('../img/old-paper.avif');
   place-items: center;
   overflow-x: hidden;
   font-size: 16px;
@@ -83,7 +83,7 @@ body {
 
 header {
   font: 'RetromaVibes';
-  background-image: url('../img/newspaper.avif');
+  background-image: url('../img/old-paper.avif');
   border: solid black 2px;
   position: fixed;
   top: 0;
@@ -107,7 +107,7 @@ header {
 }
 
 header li a {
-  color: black;
+  color: #B22222;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -116,14 +116,14 @@ header li a {
 
 .navbar-brand{
   padding-left:30px;
-  color: black;
+  color: #B22222;
   text-decoration: none;
   z-index: 6;
 }
 
 .nav-link{
   font-size: large;
-  color: black;
+  color: #B22222;
   position: relative;
   left: 26cm;
   text-decoration: none;
