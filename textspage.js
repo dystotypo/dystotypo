@@ -133,7 +133,7 @@ function filltabs(){
 		}
 
     function filltab(what,style,where) {
-      var list = `<li class="list $style"><a href="#" onclick="scrollToElement('${where}')">$content</a></li>`
+      var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
 			$(where+' ul').empty();
@@ -146,24 +146,25 @@ function filltabs(){
 			}
 		}
 
-    //function goto(id) {
-			//var t = $(id)[0].offsetTop;
-			//$('#text').animate({ scrollTop: t - 600}, 200);
+    function goto(id) {
+		  var t = $(id)[0].offsetTop;
+			$('#text').scrollIntoView();
+      //$('#text').animate({ scrollTop: t - 600}, 200);
 			//$(id).addClass('animate');
 			//setTimeout(function(){
 				//$(id).removeClass('animate');
 			//},5000);
-		//}
+		}
 
 
     //Alternative Function to GoTo
-     function scrollToElement(id) {
-       var target = document.getElementById(id);
-       if (target) {
-         var offsetTop = target.offsetTop;
-         window.scrollTo({
-           top: offsetTop,
-           behavior: 'smooth'
-         });
-       }
-     }
+    // function scrollToElement(id) {
+      // var target = document.getElementById(id);
+       //if (target) {
+         //var offsetTop = target.offsetTop;
+         //window.scrollTo({
+           //top: offsetTop,
+           //behavior: 'smooth'
+         //});
+       //}
+     //}
