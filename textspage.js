@@ -13,31 +13,8 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// $(document).ready(function () {
-//   $('#icon1').click(function () {
-//     $('#text').load('1984.html');
-//         // $('#file').html(d);
-//     $('.show').prop("checked", false);
-//     filltabs();
-//     addIds();
-//   });
-//   $('#icon2').click(function () {
-//     $('#text').load('fahrenheit.html');
-//         // $('#file').html(d);
-//     $('.show').prop("checked", false);
-//     filltabs();
-//     addIds();
-//   });
-//   $('#icon3').click(function () {
-//     $('#text').load('bravenewworld.html');
-//         // $('#file').html(d)
-//     $('.show').prop("checked", false);
-//     filltabs();
-//     addIds();
-// });
-// });
 
-// Testing alternatives
+// Loading texts in the page
 
 $(document).ready(function () {
     $('#icon1').click(function () {
@@ -133,7 +110,7 @@ function filltabs(){
 		}
 
     function filltab(what,style,where) {
-      var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+      var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
 			var elements = $(what);
       console.log(elements);
 			$(where+' ul').empty();
@@ -147,12 +124,12 @@ function filltabs(){
 		}
 
     function goto(id) {
-		  var t = $(id)[0].offsetTop;
+		  var t = $(id)[0].offset();
       $('#text').animate({ scrollTop: t}, 200);
-			//$(id).addClass('animate');
-			//setTimeout(function(){
-			  //$(id).removeClass('animate');
-			//},5000);
+			$(id).addClass('animate');
+			setTimeout(function(){
+			  $(id).removeClass('animate');
+			},5000);
 		}
 
 
