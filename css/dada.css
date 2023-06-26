@@ -10,7 +10,7 @@
 }
 
 @font-face{
-  font-family: 'dadafont';
+  font-family: 'dada';
   src: url(../fonts/dada-font/DadaRegular-lwRX.ttf) format('trutype');
 }
 
@@ -202,7 +202,7 @@ li:visited{
 }
 
 .intro-text p{
-  font-family: 'dadafont';
+  font-family: 'dada';
 }
 .pointing {
   background-image: url('/img/pointing-hand.png');
