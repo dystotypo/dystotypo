@@ -9,6 +9,11 @@
   src: url(../fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf) format('truetype');
 }
 
+@font-face{
+  font-family: 'dadafont';
+  src: url(../fonts/dada-font/DadaRegular-lwRX.ttf) format('trutype');
+}
+
 html,
 body {
   font-family: 'RetromaVibes';
@@ -196,6 +201,9 @@ li:visited{
   font-size: 80px;
 }
 
+.intro-text p{
+  font-family: 'dadafont';
+}
 .pointing {
   background-image: url('/img/pointing-hand.png');
   top:25%;
