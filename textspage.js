@@ -118,7 +118,7 @@ function filltab(what,style,where) {
   
     $(where+' ul').append(list.tpl({
       style:style,
-      place: elements[i].id,
+      place: $(what).id,
       content: elements[i].innerHTML
     }))
   }
