@@ -117,7 +117,7 @@ function filltabs(){
 			for (var i=0; i<elements.length; i++) {
 				$(where+' ul').append(list.tpl({
 					style:style,
-          where: '#'+elements[i].id,
+          place: '#'+elements[i].id,
 					content: elements[i].innerHTML
 				}))
 			}
