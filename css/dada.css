@@ -196,6 +196,12 @@ li:visited{
   font-size: 80px;
 }
 
+.pointing {
+  background-image: url('/img/pointing-hand.png');
+  top:25%;
+  right:20%;
+}
+
 .documentation-text{
   border: solid white 2px;
   backdrop-filter: blur(5px);
