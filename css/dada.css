@@ -112,7 +112,7 @@ header {
 }
 
 header li a {
-  color: #B22222;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -121,7 +121,7 @@ header li a {
 
 .navbar-brand{
   padding-left:30px;
-  color: #B22222;
+  color: black;
   text-decoration: none;
   z-index: 6;
 }
@@ -631,4 +631,4 @@ ul {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: pink; transition-duration: 0.5s;}
+.dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
