@@ -87,7 +87,7 @@ body {
 /* navbar */
 
 header {
-  font: 'RetromaVibes';
+  font-family: 'RetromaVibes';
   background-image: url('../img/old-paper.avif');
   border: solid black 2px;
   position: fixed;
@@ -109,6 +109,7 @@ header {
 
 .normal-text,p{
   background-color: none;
+  font-family: 'dada';
 }
 
 header li a {
@@ -128,7 +129,7 @@ header li a {
 
 .nav-link{
   font-size: large;
-  color: #B22222;
+  color: black;
   position: relative;
   left: 26cm;
   text-decoration: none;
@@ -193,11 +194,10 @@ li:visited{
   text-align: center;
   font-size: 18px;
   background-image: url('/img/newspaper.avif');
-  font: 'RetromaVibes';
 }
 
 .intro-text h1{
-  font: 'RetromaVibes';
+  font-family: 'dada';
   font-size: 80px;
 }
 

@@ -601,7 +601,7 @@ article:visited{
   overflow: auto;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-  background-color: #5b181f;
+  background-color: #B22222;
   border-color: #bab1a0;
 }
 input[type="checkbox"]{
