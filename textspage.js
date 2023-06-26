@@ -55,26 +55,26 @@ $(document).ready(function () {
 $(document).ready(main);
 //highlights functionalities
 
-  function main() {
-    $('#showtruth').click(function() {
-      if (this.checked)
-        $('.truth').addClass('text-truth')
-      else
-        $('.truth').removeClass('text-truth')
-    })
-    $('#showmemory').click(function() {
-      if (this.checked)
-        $('.memory').addClass('text-memory')
-      else
-        $('.memory').removeClass('text-memory')
-    })
-    $('#showtime').change(function() {
-      if (this.checked)
-        $('.time').addClass('text-time')
-      else
-        $('.time').removeClass('text-time')
-    })
-  }
+function main() {
+  $('#showtruth').click(function() {
+    if (this.checked)
+      $('.truth').addClass('text-truth')
+    else
+      $('.truth').removeClass('text-truth')
+  })
+  $('#showmemory').click(function() {
+    if (this.checked)
+      $('.memory').addClass('text-memory')
+    else
+      $('.memory').removeClass('text-memory')
+  })
+  $('#showtime').change(function() {
+    if (this.checked)
+      $('.time').addClass('text-time')
+    else
+      $('.time').removeClass('text-time')
+  })
+}
 
 //metadata info fill
 
@@ -109,29 +109,29 @@ function filltabs(){
       filltab("#text .time","list-time","#time");
 		}
 
-    function filltab(what,style,where) {
-      var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
-			var elements = $(what);
-      
-			$(where+' ul').empty();
-			for (var i=0; i<elements.length; i++) {
-          console.log(elements.id);
-				$(where+' ul').append(list.tpl({
-					style:style,
-          place: '#'+elements[i].id,
-					content: elements[i].innerHTML
-				}))
-			}
-		}
+function filltab(what,style,where) {
+  var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+  var elements = $(what);
+  
+  $(where+' ul').empty();
+  for (var i=0; i<elements.length; i++) {
+    console.log(elements[i].id);
+    $(where+' ul').append(list.tpl({
+      style:style,
+      place: '#'+elements[i].id,
+      content: elements[i].innerHTML
+    }))
+  }
+}
 
-    function goto(id) {
-		  var t = $(id)[0].offsetTop;
-      $('#text').animate({ scrollTop: t}, 200);
-			$(id).addClass('animate');
-			setTimeout(function(){
-			  $(id).removeClass('animate');
-			},5000);
-		}
+function goto(id) {
+  var t = $(id)[0].offsetTop;
+  $('#text').animate({ scrollTop: t}, 200);
+  $(id).addClass('animate');
+  setTimeout(function(){
+    $(id).removeClass('animate');
+  },5000);
+}
 
 
     //Alternative Function to GoTo
