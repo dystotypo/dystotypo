@@ -12,7 +12,7 @@
   html,
   body {
     font-family: "pop", serif;
-    background-image: url(../img/pop-art.jpg);
+    background-color: #02D2FF;
     object-fit: contain;
     place-items: center;
     overflow-x: hidden;
@@ -362,7 +362,7 @@
   }
   
   section#img01 {
-    background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/eyes-on-him.jpg);
+    background-image: url(../img/eyes-on-him-ConvertImage.jpg);
     background-size:cover;
   }
   
