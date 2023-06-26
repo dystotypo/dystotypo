@@ -148,12 +148,11 @@ function filltabs(){
 
     function goto(id) {
 		  var t = $(id)[0].offsetTop;
-			t.scrollIntoView();
-      //$('#text').animate({ scrollTop: t - 600}, 200);
-			//$(id).addClass('animate');
-			//setTimeout(function(){
-				//$(id).removeClass('animate');
-			//},5000);
+      $('#text').animate({ scrollTop: t}, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+			  $(id).removeClass('animate');
+			},5000);
 		}
 
 
