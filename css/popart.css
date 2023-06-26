@@ -12,7 +12,7 @@
   html,
   body {
     font-family: "pop", serif;
-    background-color: #02D2FF;
+    background-color: #1DBACC;
     object-fit: contain;
     place-items: center;
     overflow-x: hidden;
@@ -85,6 +85,8 @@
   header {
     font: "pop";
     background-color: #02D2FF;
+    border: 1.5px;
+    border-color: #ED3192;
     position: fixed;
     top: 0;
     left: 0;
@@ -129,7 +131,8 @@
   }
   
   .timeline {
-    border: solid white 2px;
+    border: 1.5px;
+    border-color: #ED3192;
     position: fixed;
     top: 10%;
     height: 45px;
@@ -684,5 +687,5 @@
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown-content a:hover {background-color: #6082B6; transition-duration: 0.5s;}
+  .dropdown-content a:hover {background-color: #ED3192; transition-duration: 0.5s;}
   
