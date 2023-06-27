@@ -466,7 +466,7 @@ article:visited{
   align-items: center;
   margin-right: 120%;
   margin-top: 0;
-  padding: 3%;
+  padding: 2%;
   min-height: 400px;
   width: 150px;
   min-width: 50px;
@@ -702,6 +702,25 @@ ul {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown-content a:hover {background-color: #B22222; transition-duration: 0.5s;}
+
+#icon1:hover {
+  background-color: #B22222;
+  transition-duration: 0.5s;
+}
+
+#icon2:hover {
+  background-color: rgb(121, 97, 255);
+  transition-duration: 0.5s;
+}
+
+#icon3:hover{
+  background-color: rgb(119, 238, 119);
+}
+
+#comparison{
+  color: #2c2c2c;
+  text-decoration: none;
+}
 
 .animate {
   animation-name: bgcolor ;
