@@ -118,14 +118,14 @@ function filltab(what,style,where) {
     console.log(elements[i].id);
     $(where+' ul').append(list.tpl({
       style:style,
-      place: '#'+elements[i].id,
+      place: '#'+$(what).id,
       content: elements[i].innerHTML
     }))
   }
 }
 
 function goto(id) {
-  var t = $(id)[0].offsetTop;
+  var t = $(id)[0].offsetTop();
   $('#text').animate({ scrollTop: t}, 200);
   $(id).addClass('animate');
   setTimeout(function(){
