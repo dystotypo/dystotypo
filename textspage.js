@@ -110,7 +110,7 @@ function filltabs(){
 		}
 
 function filltab(what,style,where) {
-  var list = `<li class="list $style"><a href="#" onclick="goto('${where}')">$content</a></li>`
+  var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
   var elements = $(what);
   
   $(where+' ul').empty();
@@ -118,7 +118,7 @@ function filltab(what,style,where) {
     console.log(elements[i].id);
     $(where+' ul').append(list.tpl({
       style:style,
-      place: $(where).id,
+      place: '#'+elements[i].id,
       content: elements[i].innerHTML
     }))
   }
