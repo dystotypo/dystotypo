@@ -485,6 +485,18 @@ article:visited{
 #eye-icon {
   width: 30px;
   height: 30px;
+  
+}
+
+.ee-icon{
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.ee-icon::before{
+  background-image: url(../img/icons/eye.png);
+  background-size: 30px 30px;
 }
 
 #flame-icon {
@@ -741,3 +753,4 @@ ul {
     background-color: initial;
   }
 }*/
+

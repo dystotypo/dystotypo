@@ -26,6 +26,7 @@ $(document).ready(function () {
     });
 
 
+
   $('#icon2').click(function () {
     $('#text').load('fahrenheit.html', function() {
       filltabs();
