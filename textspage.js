@@ -146,3 +146,31 @@ function goto(id) {
          //});
        //}
      //}
+
+     const icon1 = document.getElementById('icon1');
+     const icon2 = document.getElementById('icon2');
+     const icon3 = document.getElementById('icon3');
+     const cssLink = cssLink.href;
+     
+     cssLink.addEventListener('change', function() {
+       // Get the selected CSS file path
+       const selectedCSS = cssLink.href;
+     
+       // Determine the corresponding icon image path based on the selected CSS file
+       let iconImagePath;
+       if (selectedCSS === 'css/stylehome.css') {
+         iconImagePath = 'img/icons/eye.png';
+       } else if (selectedCSS === 'css/stylehome.css') {
+         iconImagePath = 'path/to/minus-icon.png';
+       } else if (selectedCSS === 'css/stylehome.css') {
+        iconImagePath = 'path/to/minus-icon.png';
+      } else if (selectedCSS === 'css/stylehome.css') {
+        iconImagePath = 'path/to/minus-icon.png';
+      } else if (selectedCSS === 'css/stylehome.css') {
+        iconImagePath = 'path/to/minus-icon.png';
+      }
+     
+       // Update the icon's image source
+       icon.src = iconImagePath;
+     });
+     

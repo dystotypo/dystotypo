@@ -16,7 +16,7 @@
   
   html,
   body {
-    font-family: "campbell", serif;
+    font-family: "pop", serif;
     background-color: #1DBACC;
     object-fit: contain;
     place-items: center;
@@ -36,7 +36,7 @@
   
   #titlelandingpage{
     margin: 150px;
-    font-family:'campbell';
+    font-family:'pop';
     font-size: 180px;
     color: #FFFFFF;
     text-align: center;
@@ -47,7 +47,7 @@
   .enterbutton{
     display: grid;
     position: relative;
-    font-family:'campbell';
+    font-family:'pop';
     color: black;
     font-size: 20px;
     text-decoration: none !important;
@@ -58,9 +58,6 @@
     overflow: hidden;
   }
   
-  .overflow-hidden {
-    overflow-y: hidden;
-  }
   
   /* about modal */
   
@@ -88,7 +85,7 @@
   /* navbar */
   
   header {
-    font: "campbell";
+    font: "pop";
     background-color: #02D2FF;
     border: 1.5px;
     border-color: #ED3192;

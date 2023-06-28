@@ -11,12 +11,12 @@
 
 @font-face{
   font-family: Messdada;
-  src: url(/fonts/dadada-font/Dadadaserif-BjG5.ttf) format('trutype');
+  src: url(Dadadaserif-BjG5.ttf) format('trutype');
 }
 
 @font-face{
   font-family: russian;
-  src: url(../fonts/russian_pb/Russian.2022.ttf) format('trutype');
+  src: url(Russian.2022.ttf) format('trutype');
 }
 
 html,
@@ -115,12 +115,12 @@ header {
   background-color: none;
 }
 
-#subtitle{
-  font-family: 'russian' !important;
+#dada1{
+  font-family: russian;
 }
 
-#intro-content{
-  font-family: 'russian' !important;
+#dada2{
+  font-family: Messdada;
 }
 
 header li a {
@@ -314,7 +314,7 @@ section#img03 {
 
 section.normal {
   background-image: url(../img/old-paper.jpg);
-  font-family: russian;
+  font-family: 'RetromaVibes';
   color: white;
   min-height: 300px;
   min-width: 350px;
