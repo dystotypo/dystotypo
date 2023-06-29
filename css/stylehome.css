@@ -19,6 +19,8 @@
   src: url(../fonts/russian_pb/Russian.2022.ttf) format('truetype');
 }
 
+/* */
+
 html,
 body {
   font-family: "Abril Fatface", serif;
@@ -485,7 +487,7 @@ article:visited{
 #eye-icon {
   width: 30px;
   height: 30px;
-  
+
 }
 
 #flame-icon {
@@ -742,4 +744,3 @@ ul {
     background-color: initial;
   }
 }*/
-
