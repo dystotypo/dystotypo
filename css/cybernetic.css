@@ -714,7 +714,7 @@ article:visited{
   background-color: #c907e7;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-  background-color: #5b181f;
+  background-color: #ddf308;
   border-color: #bab1a0;
 }
 input[type="checkbox"]{
@@ -732,11 +732,11 @@ input[type="checkbox"]{
 }
 
 .text-memory {
-  background-color: purple;
+  background-color: yellow;
 }
 
 .text-time {
-  background-color: blue;
+  background-color: green;
 }
 
 /* Metadata information*/
