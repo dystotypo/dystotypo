@@ -523,7 +523,7 @@ article:visited{
 /*highlight functionalities*/
 
 #truth, #memory, #time{
-  background-color: #bab1a0;
+  background-color: #c907e7;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
   background-color: #5b181f;
@@ -619,7 +619,7 @@ ul {
 .dropdown-content a {
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: #c907e7;
   padding-left: 4%;
   display: block;
 }
