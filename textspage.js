@@ -113,7 +113,7 @@ function filltabs(){
 function filltab(what,style,where) {
   var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
   var elements = $(what);
-  
+
   $(where+' ul').empty();
   for (var i=0; i<elements.length; i++) {
     console.log(elements[i].id);
@@ -151,11 +151,11 @@ function goto(id) {
      const icon2 = document.getElementById('icon2');
      const icon3 = document.getElementById('icon3');
      const cssLink = cssLink.href;
-     
+
      cssLink.addEventListener('change', function() {
        // Get the selected CSS file path
        const selectedCSS = cssLink.href;
-     
+
        // Determine the corresponding icon image path based on the selected CSS file
        let iconImagePath;
        if (selectedCSS === 'css/stylehome.css') {
@@ -169,8 +169,11 @@ function goto(id) {
       } else if (selectedCSS === 'css/stylehome.css') {
         iconImagePath = 'path/to/minus-icon.png';
       }
-     
+
        // Update the icon's image source
        icon.src = iconImagePath;
      });
-     
+
+//video for cybernetic theme
+
+var video = document.getElementById("myVideo");

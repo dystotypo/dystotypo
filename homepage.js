@@ -24,3 +24,5 @@ window.addEventListener("DOMContentLoaded", function() {
 function oncomingissue(){
   alert("The future issues are coming down the pike!")
 }
+
+var video = document.getElementById("myVideo");
