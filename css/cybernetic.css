@@ -92,7 +92,7 @@ body {
 
 header {
   font-family: 'RetromaVibes';
-  background-image: url('../img/old-paper.jpg');
+  background-image: url('https://media3.giphy.com/media/RgWIsbDWOAr1HGqC8t/giphy.gif?cid=ecf05e47x1h1poljc5cwibwwzr6mp3431nljvu2rtnzskhqu&ep=v1_gifs_related&rid=giphy.gif&ct=g');
   border: solid black 2px;
   position: fixed;
   top: 0;
