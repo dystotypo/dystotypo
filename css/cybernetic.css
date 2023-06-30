@@ -339,7 +339,8 @@ header li a {
   padding: 8px;
   z-index: 1;
   display: grid;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(50px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   font: 'Hacked';
 }
 
@@ -406,6 +407,7 @@ li:visited{
 .documentation-text{
   border: solid white 2px;
   backdrop-filter: blur(5px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   position: fixed;
   top: 25%;
   right: 10%;
@@ -578,6 +580,7 @@ article:visited{
   border: solid red 2px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   align-items: center;
   margin-right: 120%;
   margin-top: 0;
@@ -618,6 +621,7 @@ article:visited{
   border: solid green 2px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   margin-left: 20%;
   padding: 2%;
   max-height: 400px;
@@ -645,6 +649,7 @@ article:visited{
   border: solid blue 2px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   flex-shrink: 1;
   flex-grow: 1;
   height: auto;
@@ -678,6 +683,7 @@ article:visited{
 .collapsible.active {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  background-image: url('https://media.tenor.com/vOfmcVd-haMAAAAC/code-purpose-of-life.gif');
   max-height: 50px;
   overflow: auto;
 }
