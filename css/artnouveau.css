@@ -132,7 +132,7 @@ header {
 
 h1, h2, b {
   font-family:'RunyTunes';
-  color: #feca1d;
+  color: #c4bc00;
 }
 
 header li a {
@@ -639,15 +639,15 @@ input[type="checkbox"]{
 }
 
 .text-truth {
-  background-color: red;
+  background-color: #ff4013;
 }
 
 .text-memory {
-  background-color: purple;
+  background-color: #e6004f;
 }
 
 .text-time {
-  background-color: blue;
+  background-color: #230089;
 }
 
 /* Metadata information*/
