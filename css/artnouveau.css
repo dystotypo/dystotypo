@@ -234,6 +234,7 @@ li:visited{
   border-radius: 12px;
   background-image: url(../img/beige-texture-paper.jpg);
   background-size: cover;
+  cursor: url('../img/artnouveau-flower.png'), auto;
   position: fixed;
   top: 25%;
   right: 10%;
@@ -541,6 +542,7 @@ article:visited{
   border-radius: 12px;
   background-image: url(../img/beige-texture-paper.jpg);
   background-size: cover;
+  cursor: url('../img/artnouveau-flower.png'), auto;
   margin-left: 20%;
   padding: 2%;
   max-height: 400px;
