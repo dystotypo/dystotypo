@@ -71,7 +71,7 @@ body {
 
 #modal-button{
   color: #338BA8;
-  background-color: #793735;
+  background-color: #c4bc00;
   border: double #793735 3px;
   border-radius: 12px;
 }
@@ -104,7 +104,7 @@ body {
 
 header {
   font: "RunyTunes";
-  background-color: #793735;
+  background-color: #c4bc00;
   position: fixed;
   top: 0;
   left: 0;
@@ -132,11 +132,16 @@ header {
 
 h1, h2, b {
   font-family:'RunyTunes';
-  color: #c4bc00;
+  color: #793735;
+}
+
+i {
+  color: #338BA8;
+  font-family: 'PsychoArt';
 }
 
 header li a {
-  color: #ccc4ae;
+  color: #338BA8;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -151,7 +156,7 @@ header li a {
 
 .nav-link{
   font-size: large;
-  color: #ccc4ae;
+  color: #338BA8;
   position: relative;
   left: 26cm;
   text-decoration: none;
@@ -179,13 +184,13 @@ header li a {
 }
 
 .timeline li:hover{
-  color: white;
-  background-color: #338BA8;
+  color: #338BA8;
+  background-color: #ccc4ae;
   transition-duration: 0.5s;
 }
 
 .nav-options{
-  color: #ccc4ae;
+  color: #338BA8;
   display: inline;
   padding-right: 10px;
   text-align: center;
@@ -197,12 +202,12 @@ header li a {
 }*/
 
 a:visited{
-  color: #ccc4ae;
+  color: #338BA8;
   text-decoration: none !important;
 }
 
 li:visited{
-  color: #ccc4ae;
+  color: #338BA8;
   text-decoration: none !important;
 }
 
@@ -375,7 +380,8 @@ article{
     text-align: center;
     padding-top: 60px;
     padding: 20px;
-    color: white;
+    color: #793735;
+    font-family:'RunyTunes';
     background-color: #f6c25d;
     text-transform: uppercase;
     font-size: 40px;
@@ -410,7 +416,8 @@ section#img03 {
 }
 
 section.normal {
-  background-color: #f6c25d;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   color: white;
   min-height: 300px;
   min-width: 350px;
@@ -579,9 +586,9 @@ article:visited{
 }
 
 .collapsible {
-  background-color: #793735;
+  background-color: #c4bc00;
   font-family:'RunyTunes';
-  color: #ccc4ae;
+  color: #338BA8;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -622,11 +629,11 @@ article:visited{
 /*highlight functionalities*/
 
 #truth, #memory, #time{
-  background-color: #793735;
+  background-color: #c4bc00;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
   background-image: url(../img/beige-texture-paper.jpg);
-  border: double #793735 3px;
+  border: double #c4bc00 3px;
   border-radius: 12px;
 }
 input[type="checkbox"]{
@@ -685,13 +692,13 @@ ul {
 }
 
 .dropbtn {
-  color: #ccc4ae;
+  color: #338BA8;
   border: none;
   text-transform: uppercase;
   background-color: transparent;
   border-width: 0;
   font-family: inherit;
-  font-style: inherit;
+  font-style: inherit;338BA8
   font-weight: inherit;
   line-height: inherit;
   font-size: large;
@@ -701,7 +708,7 @@ ul {
 
 .dropdown li{
   font-size: 25px;
-  color: #ccc4ae;
+  color: #338BA8;
   position: relative;
   display: block;
 }
@@ -719,11 +726,11 @@ ul {
 .dropdown-content a {
   font-size: 20px;
   text-decoration: none;
-  color: #ccc4ae;
+  color: #338BA8;
   padding-left: 4%;
   display: block;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: #338BA8; transition-duration: 0.5s;}
+.dropdown-content a:hover {background-color: #ccc4ae; transition-duration: 0.5s;}
