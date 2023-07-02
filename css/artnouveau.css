@@ -567,6 +567,7 @@ article:visited{
   max-height: 0.5;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  font-family: 'PsychoArt';
 }
 
 @media only screen and (max-width: 768px) {
@@ -657,6 +658,7 @@ ul {
 }
 .list {
   font-size: 80%;
+  font-family: 'PsychoArt';
   line-height: 1.2;
   margin: 0;
   white-space: nowrap;
@@ -669,7 +671,7 @@ ul {
 }
 
 .list-truth{
-  font-family:'scribish';
+  font-family: 'PsychoArt';
 }
 
 
