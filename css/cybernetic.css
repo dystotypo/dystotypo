@@ -9,16 +9,6 @@
   src: url(../fonts/hacked-font/hacked.ttf) format('truetype');
 }
 
-@font-face{
-  font-family: Messdada;
-  src: url(Dadadaserif-BjG5.ttf) format('trutype');
-}
-
-@font-face{
-  font-family: russian;
-  src: url(Russian.2022.ttf) format('trutype');
-}
-
 html,
 body {
   background-image: url('../img/gridmatrix.mp4');
@@ -67,24 +57,35 @@ body {
 
 /* about modal */
 
+.modal-content{
+  border: solid black 4px;
+  font-family: 'Hacked';
+}
+
+#modal-button{
+  color: red;
+  background-color: yellow;
+  border: solid black 4px;
+}
+
+
 .modal-title{
   color: red;
   z-index: 1;
 }
 
 .modal-body{
-  background-color: red;
+  background-color: yellow;
   z-index: 1;
 }
 
 .modal-header{
-  background-color: black;
+  background-color: #172473;
   z-index: 1;
-
 }
 
 .modal-footer{
-  background-color: black;
+  background-color: #172473;
   z-index: 1;
 }
 
@@ -93,7 +94,7 @@ body {
 header {
   font-family: 'Hacked';
   background-image: url('https://media3.giphy.com/media/RgWIsbDWOAr1HGqC8t/giphy.gif?cid=ecf05e47x1h1poljc5cwibwwzr6mp3431nljvu2rtnzskhqu&ep=v1_gifs_related&rid=giphy.gif&ct=g');
-  border: solid black 2px;
+  border: solid black 4px;
   position: fixed;
   top: 0;
   left: 0;
@@ -331,7 +332,7 @@ header li a {
 }
 
 .timeline {
-  border: solid black 2px;
+  border: solid black 4px;
   position: fixed;
   top: 10%;
   height: 45px;
@@ -341,6 +342,7 @@ header li a {
   display: grid;
   backdrop-filter: blur(50px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   font: 'Hacked';
 }
 
@@ -405,9 +407,10 @@ li:visited{
 }
 
 .documentation-text{
-  border: solid white 2px;
+  border: solid black 4px;
   backdrop-filter: blur(5px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   position: fixed;
   top: 25%;
   right: 10%;
@@ -577,10 +580,11 @@ article:visited{
 
 #menu {
   position: absolute;
-  border: solid red 2px;
+  border: solid black 4px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   align-items: center;
   margin-right: 120%;
   margin-top: 0;
@@ -618,10 +622,11 @@ article:visited{
 #text {
   z-index: 1;
   position: absolute;
-  border: solid green 2px;
+  border: solid black 4px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   margin-left: 20%;
   padding: 2%;
   max-height: 400px;
@@ -646,10 +651,11 @@ article:visited{
   top: -295px;
   margin-left: 2%;
   width: 800px;
-  border: solid blue 2px;
+  border: solid black 4px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   flex-shrink: 1;
   flex-grow: 1;
   height: auto;
@@ -669,7 +675,7 @@ article:visited{
 
 .collapsible {
   background-color: #172473;
-  color: white;
+  color: #ddf308;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -684,6 +690,7 @@ article:visited{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
+  background-size: cover;
   max-height: 50px;
   overflow: auto;
 }

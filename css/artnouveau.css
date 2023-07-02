@@ -5,13 +5,17 @@
 }*/
 
 @font-face {
-  font-family: 'Abril Fatface';
-  src: url('/AbrilFatface-Regular.ttf');
+  font-family: RunyTunes;
+  src: url(../fonts/runytunes-font/RunyTunesRevisitedNF.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: PsychoArt;
+  src: url(../fonts/psychoart-font/PsychoartRegular.ttf) format('truetype');
 }
 
 html,
 body {
-  font-family: "AbrilFatface", serif;
   background-image: url(../img/art-noveou.jpeg);
   object-fit:scale-down;
   place-items: center;
@@ -31,7 +35,7 @@ body {
 
 #titlelandingpage{
   margin: 150px;
-  font-family:'Abril Fatface';
+  font-family:'RunyTunes';
   font-size: 180px;
   color: #FFFFFF;
   text-align: center;
@@ -42,7 +46,7 @@ body {
 .enterbutton{
   display: grid;
   position: relative;
-  font-family:'Abril Fatface';
+  font-family:'RunyTunes';
   color: black;
   font-size: 20px;
   text-decoration: none !important;
@@ -59,32 +63,48 @@ body {
 
 /* about modal */
 
+.modal-content{
+  border: double #793735 3px;
+  border-radius: 12px;
+  font-family: 'PsychoArt';
+}
+
+#modal-button{
+  color: #338BA8;
+  background-color: #793735;
+  border: double #793735 3px;
+  border-radius: 12px;
+}
+
 .modal-title{
-  color: red;
+  font-family:'RunyTunes';
+  color: #338BA8;
   z-index: 1;
 }
 
 .modal-body{
-  background-color: red;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   z-index: 1;
 }
 
 .modal-header{
-  background-color: black;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   z-index: 1;
-
 }
 
 .modal-footer{
-  background-color: black;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   z-index: 1;
 }
 
 /* navbar */
 
 header {
-  font: "Abril Fatface";
-  background-color: #f6c25d;
+  font: "RunyTunes";
+  background-color: #793735;
   position: fixed;
   top: 0;
   left: 0;
@@ -100,14 +120,23 @@ header {
   display:grid;
   z-index: 2;
   position: fixed;
+  font-family:'RunyTunes';
+  margin-left: 250px;
 }
 
 .normal-text,p{
   background-color: none;
+  color: #338BA8;
+  font-family: "PsychoArt";
+}
+
+h1, h2, b {
+  font-family:'RunyTunes';
+  color: #feca1d;
 }
 
 header li a {
-  color: white;
+  color: #ccc4ae;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
@@ -122,14 +151,16 @@ header li a {
 
 .nav-link{
   font-size: large;
-  color: white;
+  color: #ccc4ae;
   position: relative;
   left: 26cm;
   text-decoration: none;
 }
 
 .timeline {
-  border: solid white 2px;
+  border: double #793735 3px;
+  border-radius: 12px;
+  font-family:'RunyTunes';
   position: fixed;
   top: 10%;
   height: 45px;
@@ -149,12 +180,12 @@ header li a {
 
 .timeline li:hover{
   color: white;
-  background-color: #f6c25d;
+  background-color: #338BA8;
   transition-duration: 0.5s;
 }
 
 .nav-options{
-  color: white;
+  color: #ccc4ae;
   display: inline;
   padding-right: 10px;
   text-align: center;
@@ -166,12 +197,12 @@ header li a {
 }*/
 
 a:visited{
-  color:white;
+  color: #ccc4ae;
   text-decoration: none !important;
 }
 
 li:visited{
-  color:white;
+  color: #ccc4ae;
   text-decoration: none !important;
 }
 
@@ -194,8 +225,10 @@ li:visited{
 }
 
 .documentation-text{
-  border: solid white 2px;
-  backdrop-filter: blur(5px);
+  border: double #793735 3px;
+  border-radius: 12px;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   position: fixed;
   top: 25%;
   right: 10%;
@@ -455,9 +488,10 @@ article:visited{
 
 #menu {
   position: absolute;
-  border: solid red 2px;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  border: double #793735 3px;
+  border-radius: 12px;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   align-items: center;
   margin-right: 120%;
   margin-top: 0;
@@ -495,9 +529,10 @@ article:visited{
 #text {
   z-index: 1;
   position: absolute;
-  border: solid green 2px;
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  border: double #793735 3px;
+  border-radius: 12px;
+  background-image: url(../img/beige-texture-paper.jpg);
+  background-size: cover;
   margin-left: 20%;
   padding: 2%;
   max-height: 400px;
@@ -522,7 +557,8 @@ article:visited{
   top: -295px;
   margin-left: 2%;
   width: 800px;
-  border: solid blue 2px;
+  border: double #793735 3px;
+  border-radius: 12px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   flex-shrink: 1;
@@ -542,12 +578,14 @@ article:visited{
 }
 
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: #793735;
+  font-family:'RunyTunes';
+  color: #ccc4ae;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
+  border: double #793735 3px;
+  border-radius: 12px;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -583,11 +621,12 @@ article:visited{
 /*highlight functionalities*/
 
 #truth, #memory, #time{
-  background-color: #bab1a0;
+  background-color: #793735;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-  background-color: #5b181f;
-  border-color: #bab1a0;
+  background-image: url(../img/beige-texture-paper.jpg);
+  border: double #793735 3px;
+  border-radius: 12px;
 }
 input[type="checkbox"]{
   color:#bab1a0;
@@ -644,7 +683,7 @@ ul {
 }
 
 .dropbtn {
-  color: white;
+  color: #ccc4ae;
   border: none;
   text-transform: uppercase;
   background-color: transparent;
@@ -659,9 +698,8 @@ ul {
 }
 
 .dropdown li{
-  /*font-family: 'Dosis';*/
   font-size: 25px;
-  color: #eaffd6 !important;
+  color: #ccc4ae;
   position: relative;
   display: block;
 }
@@ -679,11 +717,11 @@ ul {
 .dropdown-content a {
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: #ccc4ae;
   padding-left: 4%;
   display: block;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown-content a:hover {background-color: #f6c25d; transition-duration: 0.5s;}
+.dropdown-content a:hover {background-color: #338BA8; transition-duration: 0.5s;}
