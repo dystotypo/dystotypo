@@ -12,6 +12,7 @@
 html,
 body {
   background-image: url('../img/gridmatrix.mp4');
+  cursor: url('../img/hacker.png'), url('../img/hacker.svg'), url('../img/hacker.jpg'), auto;
   place-items: center;
   overflow-x: hidden;
   font-size: 16px;
