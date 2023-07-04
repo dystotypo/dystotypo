@@ -232,7 +232,7 @@ li:visited{
 .documentation-text{
   border: double #793735 3px;
   border-radius: 12px;
-  background-image: url(../img/beige-texture-paper.jpg);
+  background-image: url(../img/art-noveou.jpg);
   background-size: cover;
   cursor: url('../img/artnouveau-flower.png'), auto;
   position: fixed;
@@ -405,16 +405,16 @@ section.book1 {
 }
 
 section#img01 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/eyes-on-him.jpg);
+  background-image: url(https://cdn.shopify.com/s/files/1/0285/1316/products/w0129_1s_Art-Nouveau-Eye-Wallpaper-for-Walls-Teal-Eye_Repeating-Pattern-Sample-1.jpg?v=1586015135);
   background-size:cover;
 }
 
 section#img02 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/F451_wallpaper_parallax.jpg);
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/artnouveau-BNW.png);
 }
 
 section#img03 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/BNW_wallpaper_parallax.jpg);
+  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/artnouveau-BNW.png);
 }
 
 section.normal {
