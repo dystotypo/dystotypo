@@ -233,7 +233,7 @@ li:visited{
   border: double #793735 3px;
   border-radius: 12px;
   background-image: url('../img/art-nouveau-background-doc.jpeg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   position: fixed;
@@ -419,8 +419,9 @@ section#img03 {
 }
 
 section.normal {
-  background-image: url(../img/art-noveou.jpg);
-  background-size: contain;
+  background-image: url(../img/art-nouveau-background-home.jpeg);
+  background-size: cover;
+  background-position: center;
   color: white;
   min-height: 300px;
   min-width: 350px;
@@ -543,6 +544,7 @@ article:visited{
   border-radius: 12px;
   background-image: url('../img/art-nouveau-background-text.jpeg');
   background-size: cover;
+  background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   margin-left: 20%;
   padding: 2%;
