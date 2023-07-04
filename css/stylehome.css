@@ -760,3 +760,34 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+/*test
+
+.eye-icon {
+  background-image: url('img/icons/eye.png');
+}
+
+.flame-icon {
+  background-image: url('img/icons/flame.png');
+}
+
+.pill-icon {
+  background-image: url('img/icons/pill.png');
+}
+
+#icon a {
+  display: block;
+  width: 30px; 
+  height: 30px;
+}
+
+.eye-icon::after,
+.flame-icon::after,
+.pill-icon::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+*/
