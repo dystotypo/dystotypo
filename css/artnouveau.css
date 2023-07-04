@@ -414,12 +414,12 @@ section#img02 {
 }
 
 section#img03 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/artnouveau-BNW.png);
+  background-image: url(https://images.fineartamerica.com/images-medium-large-5/vintage-perfume-ad-1896-padre-art.jpg);
 }
 
 section.normal {
-  background-image: url(../img/beige-texture-paper.jpg);
-  background-size: cover;
+  background-image: url(../img/art-noveou.jpg);
+  background-size: contain;
   color: white;
   min-height: 300px;
   min-width: 350px;
