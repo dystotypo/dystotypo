@@ -638,7 +638,7 @@ article:visited{
   background-color: #c4bc00;
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-  background-image: url(../img/beige-texture-paper.jpg);
+  background-color: #ccc4ae;
   border: double #c4bc00 3px;
   border-radius: 12px;
 }
