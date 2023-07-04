@@ -9,15 +9,15 @@
   src: url(../fonts/retroma-vibes-font/RetromaVibesRegular-rgwXB.ttf) format('truetype');
 }
 
-@font-face{
-  font-family: Messdada;
-  src: url(../fonts/dadada-font/Dadada-Rq03.ttf) format('trutype');
+@font-face {
+  font-family: Sale;
+  src: url(../fonts/schoolgirlvh-font/SchoolgirlvhRegular-aGRa.ttf) format('truetype');
 }
 
-@font-face{
+/*@font-face {
   font-family: russian;
   src: url(../fonts/russian/Russian.ttf) format('trutype');
-}
+}*/
 
 html,
 body {
@@ -91,7 +91,7 @@ body {
 /* navbar */
 
 header {
-  font-family: 'RetromaVibes';
+  font-family: "RetromaVibes";
   background-image: url('../img/old-paper.jpg');
   border: solid black 2px;
   position: fixed;
@@ -115,14 +115,6 @@ header {
   background-color: none;
 }
 
-#dada1{
-  font-family: russian;
-}
-
-#dada2 p{
-  font-family: Messdada;
-}
-
 header li a {
   color: black;
   text-transform: uppercase;
@@ -136,7 +128,7 @@ header li a {
   color: black;
   text-decoration: none;
   z-index: 6;
-  font-family: 'RetromaVibes';
+  font-family: "RetromaVibes";
 }
 
 .nav-link{
@@ -215,8 +207,7 @@ li:visited{
 }
 
 i,p {
-  color: #338BA8;
-  font-family: 'Messdada';
+  font-family: 'Sale';
 }
 
 
@@ -238,7 +229,7 @@ i,p {
   font-size: 18px;
   overflow: auto;
   text-align: left;
-  font-family: 'Messdada';
+  font-family: 'Sale';
 }
 
 .container {
@@ -321,7 +312,7 @@ section#img03 {
 
 section.normal {
   background-image: url(../img/old-paper.jpg);
-  font-family: 'Messdada';
+  font-family: 'Sale';
   color: white;
   min-height: 300px;
   min-width: 350px;
@@ -475,7 +466,7 @@ article:visited{
   max-height: 0.5;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-family: 'messdata';
+  font-family: 'Sale';
 }
 
 @media only screen and (max-width: 768px) {
