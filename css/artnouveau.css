@@ -280,10 +280,6 @@ li:visited{
   animation: noise 1s steps(8, end) infinite both;
 }*/
 
-#bg{
-  background: url('/img/eye-key-hole.jpg');
-}
-
 @-webkit-keyframes noise {
   0% {
     transform: translateX(0px, 0px);

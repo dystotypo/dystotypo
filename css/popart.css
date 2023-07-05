@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'pop';
-    src: url(../fonts/pop/POP!.ttf) format('truetype');
+    src: url(../fonts/stormline-font/StormlinePersonalUseOnlyBlack-0WqrP.otf);
   }
 
   @font-face{
@@ -133,8 +133,7 @@
   }
   
   .timeline {
-    border: 1.5px;
-    border-color: #ED3192;
+    border: solid pink 3px;
     position: fixed;
     top: 10%;
     height: 45px;

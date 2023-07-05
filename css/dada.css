@@ -11,13 +11,13 @@
 
 @font-face {
   font-family: Sale;
-  src: url(../fonts/brandford-font/BrandfordRegular-OVjv6.otf) format('truetype');
+  src: url(../fonts/fontsale-font/Fontsale-XqRj.ttf) format('truetype');
 }
 
-/*@font-face {
-  font-family: russian;
-  src: url(../fonts/russian/Russian.ttf) format('trutype');
-}*/
+@font-face {
+  font-family: Imagine;
+  src: url(../fonts/imagine-serif-font/ImagineSerifStampRough-z8E5L.otf);
+}
 
 html,
 body {
@@ -204,6 +204,7 @@ li:visited{
 .intro-text h1{
   font-family: 'RetromaVibes';
   font-size: 80px;
+  color: #B22222;
 }
 
 i,p {
@@ -275,7 +276,7 @@ article{
     text-align: center;
     padding-top: 60px;
     padding: 20px;
-    color: white;
+    color: #B22222;
     background-image: url(../img/old-paper.jpg);
     text-transform: uppercase;
     font-size: 40px;
@@ -284,7 +285,7 @@ article{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'RetromaVibes';
+    font-family: 'Imagine';
 }
 
 section.book1 {
