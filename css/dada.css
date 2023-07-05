@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: Sale;
-  src: url(../fonts/fontsale-font/Fontsale-XqRj.ttf) format('truetype');
+  src: url(../fonts/vendendo-font/Vendendo-Wy5yv.ttf) format('truetype');
 }
 
 @font-face {
@@ -68,23 +68,26 @@ body {
 /* about modal */
 
 .modal-title{
-  color: red;
+  color: white;
+  font-family: 'RetromaVibes';
   z-index: 1;
 }
 
 .modal-body{
-  background-color: red;
+  background-image: url(../img/old-paper.jpg);
   z-index: 1;
 }
 
 .modal-header{
   background-color: black;
+  border: solid black 1px;
   z-index: 1;
 
 }
 
 .modal-footer{
   background-color: black;
+  font-family: 'Sale';
   z-index: 1;
 }
 
@@ -271,6 +274,10 @@ i,p {
   font-weight: 500;
 }
 
+.container_issues_page h2{
+  color: #B22222;
+}
+
 article{
     position: absolute;
     text-align: center;
@@ -299,7 +306,7 @@ section.book1 {
 }
 
 section#img01 {
-  background-image: url(../img/AI/DALL·E-eyes-dadaist.png);
+  background-image: url(../img/eyes-dada-02.jpg);
   background-size:cover;
 }
 
@@ -314,7 +321,7 @@ section#img03 {
 section.normal {
   background-image: url(../img/old-paper.jpg);
   font-family: 'Sale';
-  color: white;
+  color: black;
   min-height: 300px;
   min-width: 350px;
   padding: 18px;
