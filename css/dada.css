@@ -635,3 +635,7 @@ ul {
 img{
   filter: sepia(100%);
 }
+
+h1, h2, h3 {
+  font-family: 'RetromaVibes';
+}
