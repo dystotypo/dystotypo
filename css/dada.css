@@ -486,8 +486,8 @@ article:visited{
 }
 
 .collapsible {
-  background-color: #777;
-  color: white;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   cursor: pointer;
   padding: 18px;
   width: 100%;
