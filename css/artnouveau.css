@@ -137,6 +137,7 @@ h1, h2, b {
 
 h5, i, checkbox {
   color: #c4bc00;
+  background-color: red;
   font-family: 'PsychoArt';
 }
 

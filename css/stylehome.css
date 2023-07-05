@@ -206,6 +206,7 @@ li:visited{
 
 .documentation-text{
   border: solid white 2px;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   position: fixed;
   top: 25%;
@@ -777,7 +778,7 @@ tr:nth-child(even) {
 
 #icon a {
   display: block;
-  width: 30px; 
+  width: 30px;
   height: 30px;
 }
 

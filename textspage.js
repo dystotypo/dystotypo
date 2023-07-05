@@ -17,7 +17,7 @@ for (i = 0; i < coll.length; i++) {
 // Loading texts in the page
 
 $(document).ready(function () {
-    $('#icon1').click(function () {
+    $('#text1').click(function () {
       $('#text').load('1984.html', function() {
         filltabs();
         addIds();
@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 
 
-  $('#icon2').click(function () {
+  $('#text2').click(function () {
     $('#text').load('fahrenheit.html', function() {
       filltabs();
       addIds();
@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.show').prop("checked", false);
   });
 
-  $('#icon3').click(function () {
+  $('#text3').click(function () {
     $('#text').load('bravenewworld.html', function() {
       filltabs();
       addIds();
@@ -147,9 +147,9 @@ function goto(id) {
        //}
      //}
 
-     const icon1 = document.getElementById('icon1');
-     const icon2 = document.getElementById('icon2');
-     const icon3 = document.getElementById('icon3');
+     const text1 = document.getElementById('text1');
+     const text2 = document.getElementById('text2');
+     const text3 = document.getElementById('text3');
      const cssLink = cssLink.href;
 
      cssLink.addEventListener('change', function() {
