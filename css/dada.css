@@ -631,3 +631,7 @@ ul {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown-content a:hover {background-color: #c2700a; transition-duration: 0.5s;}
+
+img{
+  filter: sepia(100%);
+}
