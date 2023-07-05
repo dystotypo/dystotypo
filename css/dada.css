@@ -134,12 +134,17 @@ header li a {
   font-family: "RetromaVibes";
 }
 
+.navbar-brand h1{
+  font-size: 45px;
+}
+
 .nav-link{
   font-size: large;
   color: black;
   position: relative;
   left: 26cm;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .timeline {
@@ -172,6 +177,7 @@ header li a {
   color: black;
   display: inline;
   padding-right: 10px;
+  font-size: 23px;
   text-align: center;
   z-index: 2;
   font-family: 'RetromaVibes';
