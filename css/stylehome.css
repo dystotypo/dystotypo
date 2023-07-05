@@ -72,12 +72,12 @@ body {
 /* about modal */
 
 .modal-title{
-  color: red;
+  color: white;
   z-index: 1;
 }
 
 .modal-body{
-  background-color: red;
+  background-color: #B22222;
   z-index: 1;
 }
 
@@ -92,6 +92,11 @@ body {
   z-index: 1;
 }
 
+.team{
+  width: 80px;
+  height: 60px;
+  
+}
 /* navbar */
 
 header {
@@ -117,6 +122,13 @@ header {
 .normal-text,p{
   background-color: none;
 }
+
+.normal-text a{
+  color: black;
+  text-decoration: none;
+}
+
+.normal-text a:hover {background-color: #B22222; transition-duration: 0.5s;}
 
 header li a {
   color: white;
@@ -475,6 +487,10 @@ article:visited{
   min-width: 50px;
   flex-shrink: 1;
   flex-grow: 1;
+}
+
+#menu ul {
+  list-style-type: none; /* Remove bullets */
 }
 
 @media only screen and (max-width: 768px) {
