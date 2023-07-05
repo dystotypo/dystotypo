@@ -26,3 +26,26 @@ function oncomingissue(){
 }
 
 var video = document.getElementById("myVideo");
+
+
+gsap.to('.titlepage',{
+  x:'20%',rotate:10,duration:0.85,scrollTrigger:{
+    trigger:'.ttitlepage',
+    scrub:true,
+    start:'top 20%'
+  }
+})
+gsap.to('.summary',{
+  x:'20%',rotate:10,duration:0.85,scrollTrigger:{
+    trigger:'.summary',
+    scrub:true,
+    start:'top 40%'
+  }
+})
+gsap.to('.subtitle',{
+  x:'-20%',rotate:-10,duration:0.85,scrollTrigger:{
+    trigger:'.subtitle',
+    scrub:true,
+    start:'top 30%'
+  }
+})
