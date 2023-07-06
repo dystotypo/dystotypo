@@ -238,19 +238,25 @@ li:visited{
   background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   position: fixed;
-  padding: 150px 10%;
   top: 25%;
   right: 10%;
   height: 70%;
   width: 80%;
   text-align: left;
   font-size: 18px;
-  overflow: auto;
   text-align: left;
 }
 
 .text-content {
-  padding: 50px 20%;
+  padding: 11%;
+  height: 115%;
+  overflow: hidden;
+}
+
+.text-content2 {
+  overflow: auto;
+  height: 75%;
+  max-height: 700px;
 }
 
 /* noise animation background */
@@ -554,8 +560,6 @@ article:visited{
   background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   margin-left: 20%;
-  margin: 50px auto;
-  padding: 20%;
   max-height: 400px;
   width: 900px;
   min-width: 100px;
