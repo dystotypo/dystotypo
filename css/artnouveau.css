@@ -746,5 +746,5 @@ ul {
 img {
   border: double #793735 3px;
   border-radius: 12px;
-  filter: contrast;
+  filter: saturate(0.5);
 }
