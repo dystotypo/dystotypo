@@ -260,6 +260,12 @@ li:visited{
 }
 
 .text-content3 {
+  padding: 11%;
+  height: 115%;
+  overflow: hidden;
+}
+
+.text-content4 {
   overflow: auto;
   height: 75%;
   max-height: 700px;
@@ -569,7 +575,6 @@ article:visited{
   max-height: 400px;
   width: 900px;
   min-width: 100px;
-  overflow: auto;
   flex-shrink: 1;
   flex-grow: 1;
 }
