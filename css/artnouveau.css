@@ -248,8 +248,7 @@ li:visited{
 }
 
 .text-content {
-  padding: 11%;
-  height: 115%;
+  padding: 15%;
   overflow: hidden;
 }
 
@@ -261,14 +260,14 @@ li:visited{
 
 .text-content3 {
   padding: 11%;
-  height: 115%;
   overflow: hidden;
 }
 
 .text-content4 {
   overflow: auto;
-  height: 75%;
   max-height: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* noise animation background */
