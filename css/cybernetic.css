@@ -605,6 +605,10 @@ article:visited{
   flex-grow: 1;
 }
 
+#menu ul {
+  list-style-type: none; /* Remove bullets */
+}
+
 @media only screen and (max-width: 768px) {
   #menu {
     width: auto;
