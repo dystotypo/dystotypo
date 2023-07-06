@@ -268,7 +268,7 @@ li:visited{
 .text-content4 {
   overflow: auto;
   height: 75%;
-  max-height: 700px;
+  max-height: 200px;
 }
 
 /* noise animation background */
