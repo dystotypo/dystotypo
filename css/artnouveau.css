@@ -248,14 +248,15 @@ li:visited{
 }
 
 .text-content {
-  padding: 15%;
+  padding: 5%;
   overflow: hidden;
+  margin-top: 67px;
 }
 
 .text-content2 {
   overflow: auto;
-  height: 75%;
-  max-height: 700px;
+  padding: 7%;
+  max-height: 275px;
 }
 
 .text-content3 {
