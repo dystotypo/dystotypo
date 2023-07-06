@@ -117,6 +117,10 @@ header {
   position: fixed;
 }
 
+#DystotypoTitle{
+  font-family: 'Snorter'
+}
+
 .normal-text,p{
   color: blue;
   font-family: 'Hacked';
@@ -130,7 +134,7 @@ i{
 h1, h2, b {
   color: red;
   letter-spacing: 8px;
-  font-family: 'Snorter';
+  font-family: 'Hacked';
   font-weight: 400;
   /*Create overlap*/
 
@@ -640,6 +644,7 @@ article:visited{
 #text {
   z-index: 1;
   position: absolute;
+  font-family: Hacked;
   border: solid black 4px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
