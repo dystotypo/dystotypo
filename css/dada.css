@@ -118,6 +118,8 @@ header {
   background-color: none;
 }
 
+.normal-text a:hover {background-color: #c2700a; transition-duration: 0.5s;}
+
 header li a {
   color: black;
   text-transform: uppercase;

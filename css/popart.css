@@ -113,8 +113,9 @@
   .normal-text{
     border-width: 3px 3px 5px 5px;
     border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
-    transform: rotate(-2deg);
   }
+
+  .normal-text a:hover {background-color: #FF82E2; transition-duration: 0.5s;}
   
   header li a {
     color: white;
@@ -470,7 +471,7 @@
   }
   
   .collapsible {
-    background-color: #777;
+    background-color: #ED3192;
     color: white;
     cursor: pointer;
     padding: 18px;
