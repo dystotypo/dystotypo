@@ -859,3 +859,14 @@ img{
   border: 6px double;
   opacity: 0.5;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: solid black 4px;
+  text-align: left;
+  padding: 8px;
+}

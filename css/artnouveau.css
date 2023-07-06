@@ -775,3 +775,14 @@ img {
   border-radius: 12px;
   filter: saturate(0.5);
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: double #793735 3px;
+  text-align: left;
+  padding: 8px;
+}

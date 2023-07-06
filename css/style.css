@@ -258,10 +258,10 @@ z-index: 999;
 
 .noise {
   position: absolute;
-  top: -500px;
-  right: -500px;
-  bottom: -500px;
-  left: -500px;
+  top: -700px;
+  right: -700px;
+  bottom: -600px;
+  left: -600px;
   background: url(https://www.dropbox.com/s/h7ab1c82ctzy83n/noise.png?raw=1) 0 0;
   background-size: 320px 320px;
   opacity: 0.1;
