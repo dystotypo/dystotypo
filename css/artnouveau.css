@@ -259,6 +259,12 @@ li:visited{
   max-height: 700px;
 }
 
+.text-content3 {
+  overflow: auto;
+  height: 75%;
+  max-height: 700px;
+}
+
 /* noise animation background */
 
 .container {
