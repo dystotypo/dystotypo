@@ -844,3 +844,48 @@ ul {
   min-width: 100%;
   min-height: 100%;
 }
+
+img.fx {
+  display:block;
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+.fxwrap {
+  width:50vmin;
+  height:35vmin;
+  animation:f 3s infinite;
+}
+
+.fxwrap
+  img.fx(src=imgsrc)
+
+@keyframes f {
+  /*
+           +-----A
+           .     .
+           B-----+
+
+  transit 1,2,3,4 to A
+  transit 5,6,7,8 to B
+  */
+  /*
+       2   +-----+ 3
+       1,5 .     . 4,8
+       6   +-----+ 7
+
+  1>2>3>4=cw
+  5>6>7>8=ccw
+  */
+  from {
+    clip-path:polygon(
+    100% 0,100% 0,100% 0,100% 0,/*1,2,3,4*/
+    0 100%,0 100%,0 100%,0 100%);/*5,6,7,8*/
+  }
+  10%, to {
+    clip-path:polygon(
+    0 50%,0 0,100% 0,100% 50%,/*1,2,3,4*/
+    0 50%,0 100%,100% 100%,100% 50%);/*5,6,7,8*/
+  }
+}
