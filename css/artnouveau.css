@@ -771,7 +771,7 @@ ul {
 .dropdown-content a:hover {background-color: #ccc4ae; transition-duration: 0.5s;}
 
 img {
-  border: double #793735 3px;
+  border: double #793735 5px;
   border-radius: 12px;
   filter: saturate(0.5);
 }

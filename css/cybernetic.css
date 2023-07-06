@@ -866,7 +866,7 @@ table {
 }
 
 td, th {
-  border: solid black 4px;
+  border: solid black 2px;
   text-align: left;
   padding: 8px;
 }
