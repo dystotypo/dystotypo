@@ -776,6 +776,7 @@ td, th {
 
 img {
   opacity: 0.5;
+  border: solid black 2px;
 }
 
 th {
