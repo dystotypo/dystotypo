@@ -238,6 +238,7 @@ li:visited{
   background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   position: fixed;
+  padding: 150px 10%;
   top: 25%;
   right: 10%;
   height: 70%;
@@ -246,6 +247,10 @@ li:visited{
   font-size: 18px;
   overflow: auto;
   text-align: left;
+}
+
+.text-content {
+  padding: 50px 20%;
 }
 
 /* noise animation background */
@@ -549,9 +554,8 @@ article:visited{
   background-position: center;
   cursor: url('../img/artnouveau-flower.png'), auto;
   margin-left: 20%;
+  margin: 50px auto;
   padding: 20%;
-  padding-top: 20px;
-  padding-bottom: 20px;
   max-height: 400px;
   width: 900px;
   min-width: 100px;
