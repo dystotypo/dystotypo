@@ -9,6 +9,11 @@
   src: url(../fonts/hacked-font/hacked.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: Snorter;
+  src: url(../fonts/snorter-font/Snorter.ttf) format('truetype');
+}
+
 html,
 body {
   background-image: url('../img/gridmatrix.mp4');
@@ -92,7 +97,7 @@ body {
 /* navbar */
 
 header {
-  font-family: 'Hacked';
+  font-family: 'Snorter';
   background-image: url('https://media3.giphy.com/media/RgWIsbDWOAr1HGqC8t/giphy.gif?cid=ecf05e47x1h1poljc5cwibwwzr6mp3431nljvu2rtnzskhqu&ep=v1_gifs_related&rid=giphy.gif&ct=g');
   border: solid black 4px;
   position: fixed;
@@ -125,7 +130,7 @@ i{
 h1, h2, b {
   color: red;
   letter-spacing: 8px;
-  font-family: 'Hacked';
+  font-family: 'Snorter';
   font-weight: 400;
   /*Create overlap*/
 
