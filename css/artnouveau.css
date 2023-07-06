@@ -550,6 +550,8 @@ article:visited{
   cursor: url('../img/artnouveau-flower.png'), auto;
   margin-left: 20%;
   padding: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   max-height: 400px;
   width: 900px;
   min-width: 100px;
