@@ -37,7 +37,7 @@ body {
   margin: 150px;
   font-family:'RunyTunes';
   font-size: 180px;
-  color: #FFFFFF;
+  color: red;
   text-align: center;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -71,7 +71,7 @@ body {
 
 #modal-button{
   color: #338BA8;
-  background-color: #c4bc00;
+  background-color: #yellow;
   border: double #793735 3px;
   border-radius: 12px;
 }
@@ -83,20 +83,22 @@ body {
 }
 
 .modal-body{
-  background-image: url(../img/beige-texture-paper.jpg);
+  background-image: url("https://media4.giphy.com/media/xUA7bjwzm2cHzA7Mo8/giphy.gif?cid=ecf05e47l2yvce4vr4b46b29x2awvsqqitowqt5y5x87z9i4&ep=v1_gifs_search&rid=giphy.gif&ct=g");
   background-size: cover;
   z-index: 1;
 }
 
+#modal-text{
+  color: black;
+}
+
 .modal-header{
-  background-image: url(../img/beige-texture-paper.jpg);
-  background-size: cover;
+  background-color: #793735;
   z-index: 1;
 }
 
 .modal-footer{
-  background-image: url(../img/beige-texture-paper.jpg);
-  background-size: cover;
+  background-color: #793735;
   z-index: 1;
 }
 
@@ -133,6 +135,10 @@ header {
 h1, h2, b {
   font-family:'RunyTunes';
   color: #c4bc00;
+}
+
+.titlepage{
+  background-color: red;
 }
 
 h5, i, checkbox {
@@ -222,12 +228,12 @@ li:visited{
   width: 80%;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: red;
 }
 
 .intro-text h1{
   font-size: 80px;
-  color: white;
+  color: red;
 }
 
 .documentation-text{
@@ -248,27 +254,27 @@ li:visited{
 }
 
 .text-content {
-  padding: 11%;
-  height: 115%;
+  padding: 5%;
   overflow: hidden;
+  margin-top: 70px;
 }
 
 .text-content2 {
   overflow: auto;
-  height: 75%;
-  max-height: 700px;
+  padding: 7%;
+  max-height: 276px;
 }
 
 .text-content3 {
   padding: 11%;
-  height: 115%;
   overflow: hidden;
 }
 
 .text-content4 {
   overflow: auto;
-  height: 75%;
-  max-height: 700px;
+  max-height: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* noise animation background */
@@ -446,7 +452,7 @@ section.normal {
   color: white;
   min-height: 300px;
   min-width: 350px;
-  padding: 18px;
+  padding: 100px;
 }
 
 /*This section should be shorted somehow, cause it doesn't seem a good idea to repeat codes for doing the same thing*/
@@ -765,7 +771,18 @@ ul {
 .dropdown-content a:hover {background-color: #ccc4ae; transition-duration: 0.5s;}
 
 img {
-  border: double #793735 3px;
+  border: double #793735 5px;
   border-radius: 12px;
   filter: saturate(0.5);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: double #793735 3px;
+  text-align: left;
+  padding: 8px;
 }
