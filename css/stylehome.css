@@ -389,11 +389,11 @@ section#img01 {
 }
 
 section#img02 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/F451.jpg);
+  background-image: url(../img/matches-black.jpg);
 }
 
 section#img03 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/BNW_wallpaper_parallax.jpg);
+  background-image: url(../img/tubes.jpg);
 }
 
 section.normal {

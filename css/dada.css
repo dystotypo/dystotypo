@@ -314,16 +314,16 @@ section.book1 {
 }
 
 section#img01 {
-  background-image: url(../img/eyes-dada-02.jpg);
+  background-image: url(../img/eyes-cartoon.jpg);
   background-size:cover;
 }
 
 section#img02 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/F451_wallpaper_parallax.jpg);
+  background-image: url(../img/burning-book.jpg);
 }
 
 section#img03 {
-  background-image: url(https://raw.githubusercontent.com/dystotypo/dystotypo/main/img/BNW_wallpaper_parallax.jpg);
+  background-image: url(../img/brave-new-world.jpg);
 }
 
 section.normal {
