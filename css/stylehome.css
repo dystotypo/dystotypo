@@ -119,6 +119,10 @@ header {
   position: fixed;
 }
 
+.normal-text{
+  padding: 5%;
+}
+
 .normal-text,p{
   background-color: none;
 }
@@ -789,6 +793,14 @@ th {
 
 #team-table{
   border: 0;
+}
+
+.documentation-text{
+  color: black;
+}
+
+.text-content2{
+  padding: 6%;
 }
 
 /*test
