@@ -16,11 +16,12 @@
 
 html,
 body {
-  background-image: url('../img/gridmatrix.mp4');
+  background: url('../img/gridmatrix.mp4')
+              url('../img/gridmatrix.webm');
+  position: relative;
   place-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
-  object-fit: cover;
   font-size: 16px;
   height: 100%;
   min-height: 100%;
