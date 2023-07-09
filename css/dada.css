@@ -504,6 +504,7 @@ article:visited{
 .collapsible {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  background-color: transparent;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -514,8 +515,6 @@ article:visited{
 }
 
 .collapsible.active {
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
   max-height: 50px;
   overflow: auto;
 }
@@ -654,4 +653,12 @@ img{
 
 h1, h2, h3 {
   font-family: 'RetromaVibes';
+}
+
+table{
+  font-family: 'Sale';
+}
+
+#team-table{
+  border: 0;
 }
