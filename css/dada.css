@@ -424,6 +424,10 @@ article:visited{
   list-style-type: none; /* Remove bullets */
 }
 
+#menu a{
+  color: black;
+}
+
 @media only screen and (max-width: 768px) {
   #menu {
     width: auto;

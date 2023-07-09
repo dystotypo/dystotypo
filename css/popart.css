@@ -116,6 +116,7 @@
   
   .normal-text,p{
     background-color: none;
+    color: black;
   }
 
   .normal-text{
@@ -627,5 +628,13 @@
   .dropdown-content a:hover {background-color: #ED3192; transition-duration: 0.5s;}
   
   img {
-    filter: contrast(100%);
+    filter: saturate(250%);
+  }
+
+  #text1, #text2, #text3{
+    color: black;
+  }
+
+  #comparison a{
+    color: black;
   }
