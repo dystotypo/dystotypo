@@ -70,23 +70,33 @@
   /* about modal */
   
   .modal-title{
-    color: red;
+    color: black;
     z-index: 1;
   }
   
   .modal-body{
-    background-color: red;
+    background-image: url(../img/pop.jpg);
     z-index: 1;
   }
   
   .modal-header{
-    background-color: black;
+    background-color: #70BAFF;
+    background:
+	  radial-gradient(rgba(112, 186, 255, 0) 45%, rgba(0, 112, 186, 0.3) 46%),
+	  radial-gradient(rgba(112, 186, 255, 0) 45%, rgba(0, 112, 186, 0.3) 46%);
+	  background-position: 0 0, 20px 20px;
+	  background-size:40px 40px, 40px 40px, cover;
     z-index: 1;
   
   }
   
   .modal-footer{
-    background-color: black;
+    background-color: #70BAFF;
+    background:
+	  radial-gradient(rgba(112, 186, 255, 0) 45%, rgba(0, 112, 186, 0.3) 46%),
+	  radial-gradient(rgba(112, 186, 255, 0) 45%, rgba(0, 112, 186, 0.3) 46%);
+	  background-position: 0 0, 20px 20px;
+	  background-size:40px 40px, 40px 40px, cover;
     z-index: 1;
   }
   
