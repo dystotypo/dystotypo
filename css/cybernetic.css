@@ -16,9 +16,7 @@
 
 html,
 body {
-  background: url('../img/gridmatrix.mp4')
-              url('../img/gridmatrix.webm');
-  position: relative;
+  background-image: url('../img/gridmatrix.mp4');
   place-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
