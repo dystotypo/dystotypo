@@ -128,13 +128,13 @@ header {
 
 .normal-text,p{
   background-color: none;
-  color: #338BA8;
+  color: #c4bc00;
   font-family: "PsychoArt";
 }
 
 h1, h2, b {
   font-family:'RunyTunes';
-  color: #c4bc00;
+  color: #338BA8;
 }
 
 .titlepage{
