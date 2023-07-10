@@ -490,7 +490,6 @@ article:visited{
   max-height: 0.5;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-family: 'Sale';
 }
 
 @media only screen and (max-width: 768px) {
