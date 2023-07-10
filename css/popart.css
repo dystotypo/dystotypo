@@ -533,10 +533,11 @@
   
   #truth, #memory, #time{
     background-color: #bab1a0;
+    font-family: 'pop';
   }
   #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-    background-color: #5b181f;
-    border-color: #bab1a0;
+    background-color: #ED3192;
+    border-color: #70BAFF;
   }
   input[type="checkbox"]{
     color:#bab1a0;
