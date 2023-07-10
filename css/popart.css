@@ -532,7 +532,7 @@
   /*highlight functionalities*/
   
   #truth, #memory, #time{
-    background-color: #bab1a0;
+    background-color: transparent;
     font-family: 'pop';
   }
   #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
@@ -648,4 +648,16 @@
 
   #comparison a{
     color: black;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
   }
