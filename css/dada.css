@@ -542,10 +542,11 @@ article:visited{
 /*highlight functionalities*/
 
 #truth, #memory, #time{
-  background-color: #bab1a0;
+  background-color: transparent;
+  font-family: 'Sale';
 }
 #truth:hover, #memory:hover, #time:hover, #truth:active, #memory:active, #time:active{
-  background-color: #5b181f;
+  background-color: #c2700a;
   border-color: #bab1a0;
 }
 input[type="checkbox"]{
