@@ -516,7 +516,7 @@ article:visited{
 
 .collapsible.active {
   max-height: 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content {

@@ -638,7 +638,7 @@ article:visited{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   max-height: 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content {

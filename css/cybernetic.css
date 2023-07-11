@@ -720,7 +720,7 @@ article:visited{
   background-image: url('https://media.tenor.com/2gfRHLv6GZ8AAAAd/code-coding.gif');
   background-size: cover;
   max-height: 50px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .content {
