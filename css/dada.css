@@ -136,9 +136,9 @@ header li a {
   font-family: "RetromaVibes";
 }
 
-.navbar-brand h1{
+/*.navbar-brand h1{
   font-size: 45px;
-}
+}*/
 
 .nav-link{
   font-size: large;
@@ -146,7 +146,7 @@ header li a {
   position: relative;
   left: 26cm;
   text-decoration: none;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 .timeline {
@@ -179,7 +179,6 @@ header li a {
   color: black;
   display: inline;
   padding-right: 10px;
-  font-size: 23px;
   text-align: center;
   z-index: 2;
   font-family: 'RetromaVibes';
@@ -220,13 +219,6 @@ li:visited{
 
 i,p {
   font-family: 'Sale';
-}
-
-
-.pointing {
-  background-image: url('/img/pointing-hand.png');
-  top:25%;
-  right:20%;
 }
 
 .documentation-text{
@@ -458,7 +450,7 @@ article:visited{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   margin-left: 20%;
-  padding: 5%;
+  padding: 10%;
   max-height: 400px;
   width: 900px;
   min-width: 100px;
@@ -621,7 +613,7 @@ ul {
 
 .dropdown li{
   /*font-family: 'Dosis';*/
-  font-size: 25px;
+  /*font-size: 25px;*/
   color: black !important;
   position: relative;
   display: block;
