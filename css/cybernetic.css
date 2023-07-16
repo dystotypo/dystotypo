@@ -134,7 +134,7 @@ i{
   color: blue;
 }
 
-h1, h2, b {
+h1, h2, h3, b {
   color: red;
   letter-spacing: 8px;
   font-family: 'Hacked';
@@ -621,6 +621,13 @@ article:visited{
 
 #menu ul {
   list-style-type: none; /* Remove bullets */
+}
+
+#documentation{
+  color: blue;
+  font-family: 'Hacked';
+  letter-spacing: 5px;
+  padding-left: 100px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -132,7 +132,7 @@ header {
   font-family: "PsychoArt";
 }
 
-h1, h2, b {
+h1, h2, h3, b {
   font-family:'RunyTunes';
   color: #338BA8;
 }
@@ -251,6 +251,12 @@ li:visited{
   text-align: left;
   font-size: 18px;
   text-align: left;
+}
+
+#documentation{
+  background-color: none;
+  color: #c4bc00;
+  font-family: "PsychoArt";
 }
 
 .text-content {
