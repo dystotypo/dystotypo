@@ -140,6 +140,10 @@ header li a {
   font-size: 45px;
 }*/
 
+#mainnavbar{
+  margin-right: 5px;
+}
+
 .nav-link{
   font-size: large;
   color: black;
@@ -167,6 +171,7 @@ header li a {
   text-align: center;
   cursor: pointer;
   padding-left: 10px;
+  font-size: large;
 }
 
 .timeline li:hover{
@@ -183,6 +188,27 @@ header li a {
   z-index: 2;
   font-family: 'RetromaVibes';
 }
+
+/*MEDIA QUERIES FOR NAVBAR*/
+
+@media (max-width: 640px) {
+  .mainnavbar {
+    text-align: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.8em 0;
+  }
+}
+
 
 /*a:hover{
   color:black;
@@ -567,7 +593,7 @@ input[type="checkbox"]{
 /* Metadata information*/
 
 ul {
-  padding-inline-start: 0.3em;
+  padding-inline-start: 0.1em;
   overflow-y: hidden;
 }
 .list {
