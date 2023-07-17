@@ -235,6 +235,8 @@ li:visited{
   font-size: 18px;
   overflow: auto;
   text-align: left;
+  color: black;
+  padding: 6%;
 }
 
 /* noise animation background */
@@ -796,14 +798,6 @@ th {
 
 #team-table{
   border: 0;
-}
-
-.documentation-text{
-  color: black;
-}
-
-.text-content2{
-  padding: 6%;
 }
 
 /*test
