@@ -33,9 +33,6 @@
     padding: 0;
   }
 
-  .noise{
-    background-color: pink;
-  }
   .hiddenphrase{
     display:grid;
     position:relative;
