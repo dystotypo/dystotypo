@@ -114,6 +114,10 @@ header {
   position: fixed;
 }
 
+.navbar-nav{
+  left: 35px;
+}
+
 .normal-text,p{
   background-color: none;
 }
@@ -140,9 +144,9 @@ header li a {
   font-size: 45px;
 }*/
 
-#mainnavbar{
+/*#mainnavbar{
   margin-right: 5px;
-}
+}*/
 
 .nav-link{
   font-size: large;
