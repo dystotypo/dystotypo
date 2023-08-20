@@ -114,10 +114,9 @@ header {
   position: fixed;
 }
 
-.navbar-nav{
-  left: 35px;
+.navbar-nav, ul{
+  right:20px;
 }
-
 .normal-text,p{
   background-color: none;
 }
@@ -144,9 +143,9 @@ header li a {
   font-size: 45px;
 }*/
 
-/*#mainnavbar{
+#mainnavbar{
   margin-right: 5px;
-}*/
+}
 
 .nav-link{
   font-size: large;
@@ -597,7 +596,7 @@ input[type="checkbox"]{
 /* Metadata information*/
 
 ul {
-  padding-inline-start: 0.1em;
+  padding-inline-start: 0.5em;
   overflow-y: hidden;
 }
 .list {
