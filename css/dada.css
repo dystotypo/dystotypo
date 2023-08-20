@@ -115,11 +115,6 @@ header {
   right: 20px;
 }
 
-.navbar-nav, ul{
-  right:20px;
-  flex-flow: row;
-}
-
 .navbar-collapse{
   flex-direction: row;
   left:30px;
