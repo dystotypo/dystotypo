@@ -120,6 +120,7 @@ header {
 
 .navbar-collapse{
   flex-direction: row;
+  left:30px;
 }
 
 .normal-text,p{
