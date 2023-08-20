@@ -112,10 +112,12 @@ header {
   display:grid;
   z-index: 2;
   position: fixed;
+  right: 20px;
 }
 
 .navbar-nav, ul{
   right:20px;
+  flex-flow: row;
 }
 
 .navbar-collapse{
