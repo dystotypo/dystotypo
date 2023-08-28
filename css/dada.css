@@ -112,13 +112,15 @@ header {
   display:grid;
   z-index: 2;
   position: fixed;
-  right: 20px;
-  overflow: hidden;
 }
 
 .navbar-collapse{
   overflow: hidden;
   left:30px;
+}
+
+ul .navbar nav{
+  overflow: hidden;
 }
 
 .normal-text,p{
