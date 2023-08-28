@@ -103,6 +103,7 @@ header {
   right: 0;
   height: 65px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   /*box-shadow: 0 0 25px 0 black;*/
   z-index: 2;
@@ -112,6 +113,8 @@ header {
   display:grid;
   z-index: 2;
   position: fixed;
+  overflow: hidden;
+  left: 20px;
 }
 
 .navbar-collapse{
