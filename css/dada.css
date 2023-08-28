@@ -113,10 +113,11 @@ header {
   z-index: 2;
   position: fixed;
   right: 20px;
+  overflow: hidden;
 }
 
 .navbar-collapse{
-  flex-direction: row;
+  overflow: hidden;
   left:30px;
 }
 
