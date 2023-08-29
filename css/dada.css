@@ -114,6 +114,10 @@ header {
   position: fixed;
 }
 
+.navbar-nav{
+  display: contents;
+}
+
 .normal-text{
   padding: 5%;
 }
